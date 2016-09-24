@@ -19,6 +19,12 @@ if(isOnGround && jkey)
     jumpTimer--;
 }
 
+// Jumper object response
+if(place_meeting(x, y+5, ObjJumper)){
+    vspd=-jspd*2.5;
+    isOnGround = false;
+}
+
 // Moving right
 if(rkey)
 {
