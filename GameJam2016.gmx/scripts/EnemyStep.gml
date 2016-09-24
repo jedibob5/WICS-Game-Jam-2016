@@ -15,3 +15,13 @@ if(place_meeting(x, y, ObjPlayer))
 {
     script_execute(DamagePlayer);
 }
+
+// Horizontal collisions
+if(place_meeting(x+hspd, y, ObjEnemyWalker))
+{
+    while(!place_meeting(x+sign(hspd), y, ObjEnemyWalker))
+    {
+        x += sign(hspd);
+    }
+    hspd = 0;
+}
