@@ -28,11 +28,16 @@
     <sprite>sprites\SprSolid</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
     <sprite>sprites\sp_walkingenemy1</sprite>
+    <sprite>sprites\sprMetal</sprite>
+    <sprite>sprites\sprRust</sprite>
+    <sprite>sprites\sprLargeMetal</sprite>
+    <sprite>sprites\sprLargeRust</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
     <background>background\BgDeath</background>
     <background>background\GameOverScreen</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -68,6 +73,10 @@
     <object>objects\ObjEnemyWalker</object>
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjGround</object>
+    <object>objects\ObjLargeRust</object>
+    <object>objects\ObjLargeMetal</object>
+    <object>objects\ObjRust</object>
+    <object>objects\ObjMetal</object>
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
