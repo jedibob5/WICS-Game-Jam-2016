@@ -4,7 +4,12 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bgm_lvl1</sound>
+    <sound>sound\bgm_go</sound>
+    <sound>sound\bgm_title</sound>
+    <sound>sound\bgm_title2</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
     <sprite>sprites\player</sprite>
@@ -67,6 +72,7 @@
     <object>objects\ObjEnemyBullet</object>
     <object>objects\ParActor</object>
     <object>objects\ParProjectile</object>
+<<<<<<< HEAD:GameJam2016.gmx/WICS Game Jam 2016 - RetroQuest.project.gmx
     <object>objects\bullet</object>
     <object>objects\ObjEnemyspawner</object>
     <object>objects\explosion</object>
@@ -74,6 +80,11 @@
     <object>objects\ObjFlyingEnemy</object>
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjDoor1</object>
+=======
+    <object>objects\ObjTitleBgm</object>
+    <object>objects\ObjLvlBgm</object>
+    <object>objects\ObjDeathBgm</object>
+>>>>>>> refs/heads/Music/sound:GameJam2016/WICS Game Jam 2016 - RetroQuest.project.gmx
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
