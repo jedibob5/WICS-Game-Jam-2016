@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Health = 5;
+            <string>while(health &lt; 5)
+{health++;}
 </string>
           </argument>
         </arguments>
