@@ -67,6 +67,7 @@
     <object>objects\bullet</object>
     <object>objects\explosion</object>
     <object>objects\ObjDoor1</object>
+    <object>objects\ObjDoor2</object>
     <object>objects\ObjEnemyBullet</object>
     <object>objects\ObjEnemyShooter</object>
     <object>objects\ObjEnemyspawner</object>
@@ -89,10 +90,11 @@
     <object>objects\ObjBgmDeath</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Death</room>
     <room>rooms\MainMenu</room>
+    <room>rooms\Death</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
+    <room>rooms\RangedTestRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
