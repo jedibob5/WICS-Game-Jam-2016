@@ -18,7 +18,6 @@ if(isOnGround && jkey)
 if(rkey)
 {
     hspd = spd;
-    sprite_assign(ObjPlayer, sp_player_run);
     image_xscale = -1;
 }
 
@@ -26,7 +25,6 @@ if(rkey)
 if(lkey)
 {
     hspd = -spd;
-    sprite_assign(ObjPlayer, sp_player_run);
     image_xscale = 1;
 }
 

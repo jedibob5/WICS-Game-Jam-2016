@@ -24,9 +24,6 @@
     <sprite>sprites\sp_enemyspawner</sprite>
     <sprite>sprites\sp_ground</sprite>
     <sprite>sprites\sp_player</sprite>
-    <sprite>sprites\sp_player_run</sprite>
-    <sprite>sprites\sp_spawner_hurt</sprite>
-    <sprite>sprites\sp_walk_enemy1</sprite>
     <sprite>sprites\SprBulletEnemy</sprite>
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\SprMenuMenu</sprite>
@@ -34,7 +31,10 @@
     <sprite>sprites\SprMenuQuit</sprite>
     <sprite>sprites\SprPlayer</sprite>
     <sprite>sprites\SprSolid</sprite>
-    <sprite>sprites\grassy_ground</sprite>
+    <sprite>sprites\sp_spawner_hurt</sprite>
+    <sprite>sprites\sp_walkingenemy1</sprite>
+    <sprite>sprites\sp_player_run1</sprite>
+    <sprite>sprites\sprite27</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -67,8 +67,8 @@
   <objects name="objects">
     <object>objects\bullet</object>
     <object>objects\explosion</object>
+    <object>objects\ObjDeathBgm</object>
     <object>objects\ObjDoor1</object>
-    <object>objects\ObjDoor2</object>
     <object>objects\ObjEnemyBullet</object>
     <object>objects\ObjEnemyShooter</object>
     <object>objects\ObjEnemyspawner</object>
@@ -76,28 +76,24 @@
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjFlyingEnemy</object>
     <object>objects\ObjGround</object>
-    <object>objects\ObjGrass</object>
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjSolid</object>
+    <object>objects\ObjTitleBgm</object>
     <object>objects\ObjUI</object>
     <object>objects\ParActor</object>
     <object>objects\ParEnemy</object>
     <object>objects\ParProjectile</object>
     <object>objects\wall_pholder</object>
-    <object>objects\ObjBgmTitle</object>
-    <object>objects\ObjBgmLvl1</object>
-    <object>objects\ObjBgmDeath</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\Death</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
-    <room>rooms\RangedTestRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
