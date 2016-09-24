@@ -11,7 +11,6 @@
     <sprite>sprites\player</sprite>
     <sprite>sprites\sp_player</sprite>
     <sprite>sprites\sp_player_run1</sprite>
-    <sprite>sprites\player_blank</sprite>
     <sprite>sprites\sp_bird</sprite>
     <sprite>sprites\sp_bird2</sprite>
     <sprite>sprites\sp_boom</sprite>
@@ -28,6 +27,8 @@
     <sprite>sprites\SprSolid</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
     <sprite>sprites\sp_walkingenemy1</sprite>
+    <sprite>sprites\Health</sprite>
+    <sprite>sprites\sprite23</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -56,6 +57,7 @@
     <script>scripts\sc_spawnerstep.gml</script>
     <script>scripts\ShooterStep.gml</script>
     <script>scripts\sc_enemy_walker_step1.gml</script>
+    <script>scripts\PickupCollide.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -81,6 +83,8 @@
     <object>objects\ParProjectile</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjFlyingEnemy</object>
+    <object>objects\ParPickup</object>
+    <object>objects\PickupHealth</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
