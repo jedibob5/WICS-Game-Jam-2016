@@ -26,14 +26,10 @@
     <sprite>sprites\SprMenuQuit</sprite>
     <sprite>sprites\SprPlayer</sprite>
     <sprite>sprites\SprSolid</sprite>
-<<<<<<< HEAD:GameJam2016.gmx/WICS Game Jam 2016 - RetroQuest.project.gmx
     <sprite>sprites\sp_spawner_hurt</sprite>
     <sprite>sprites\sp_walkingenemy1</sprite>
     <sprite>sprites\sp_player_run1</sprite>
     <sprite>sprites\sprite27</sprite>
-=======
-    <sprite>sprites\grassy_ground</sprite>
->>>>>>> origin/master:GameJam2016/WICS Game Jam 2016 - RetroQuest.project.gmx
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -75,10 +71,6 @@
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjFlyingEnemy</object>
     <object>objects\ObjGround</object>
-<<<<<<< HEAD:GameJam2016.gmx/WICS Game Jam 2016 - RetroQuest.project.gmx
-=======
-    <object>objects\ObjGrass</object>
->>>>>>> origin/master:GameJam2016/WICS Game Jam 2016 - RetroQuest.project.gmx
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
