@@ -21,6 +21,8 @@
     <sprite>sprites\sp_enemyspawner</sprite>
     <sprite>sprites\sp_walk_enemy1</sprite>
     <sprite>sprites\sp_boom</sprite>
+    <sprite>sprites\sp_spawner_hurt</sprite>
+    <sprite>sprites\sp_ground</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\GameOverScreen</background>
@@ -58,6 +60,7 @@
     <object>objects\bullet</object>
     <object>objects\ObjEnemyspawner</object>
     <object>objects\explosion</object>
+    <object>objects\ObjGround</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
