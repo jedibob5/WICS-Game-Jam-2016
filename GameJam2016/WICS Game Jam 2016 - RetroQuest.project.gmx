@@ -98,6 +98,7 @@
     <object>objects\ObjHubBgm</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjFlyingEnemy</object>
+    <object>objects\ObjJumper</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
