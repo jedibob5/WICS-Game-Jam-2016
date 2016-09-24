@@ -29,6 +29,7 @@
     <sprite>sprites\SprMenuQuit</sprite>
     <sprite>sprites\SprPlayer</sprite>
     <sprite>sprites\SprSolid</sprite>
+    <sprite>sprites\grassy_ground</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -70,6 +71,7 @@
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjFlyingEnemy</object>
     <object>objects\ObjGround</object>
+    <object>objects\ObjGrass</object>
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
