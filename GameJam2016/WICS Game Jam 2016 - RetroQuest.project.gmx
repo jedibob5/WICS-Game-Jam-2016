@@ -8,6 +8,7 @@
     <sound>sound\bgm_lvl1</sound>
     <sound>sound\bgm_go</sound>
     <sound>sound\bgm_title</sound>
+    <sound>sound\bgm_title2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
