@@ -81,7 +81,7 @@
     <instance objName="ObjGround" x="864" y="608" name="inst_FDAD8B05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjGround" x="800" y="608" name="inst_49D5A5C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjGround" x="736" y="608" name="inst_43B47625" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjGround" x="992" y="544" name="inst_28654B7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjGround" x="1120" y="608" name="inst_28654B7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjGround" x="928" y="544" name="inst_B4817924" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjGround" x="864" y="544" name="inst_B06BD6D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjGround" x="544" y="672" name="inst_296DFAD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

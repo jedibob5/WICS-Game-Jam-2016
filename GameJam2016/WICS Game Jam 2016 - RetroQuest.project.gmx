@@ -7,5 +7,94 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
+    <sprite>sprites\HealthBar</sprite>
+    <sprite>sprites\player</sprite>
+    <sprite>sprites\player_blank</sprite>
+    <sprite>sprites\sp_bird</sprite>
+    <sprite>sprites\sp_bird2</sprite>
+    <sprite>sprites\sp_boom</sprite>
+    <sprite>sprites\sp_bullet</sprite>
+    <sprite>sprites\sp_divebomb</sprite>
+    <sprite>sprites\sp_door1</sprite>
+    <sprite>sprites\sp_enemyspawner</sprite>
+    <sprite>sprites\sp_ground</sprite>
+    <sprite>sprites\sp_player</sprite>
+    <sprite>sprites\sp_player_run</sprite>
+    <sprite>sprites\sp_spawner_hurt</sprite>
+    <sprite>sprites\sp_walk_enemy1</sprite>
+    <sprite>sprites\SprBulletEnemy</sprite>
+    <sprite>sprites\sprite21</sprite>
+    <sprite>sprites\SprMenuMenu</sprite>
+    <sprite>sprites\SprMenuPlay</sprite>
+    <sprite>sprites\SprMenuQuit</sprite>
+    <sprite>sprites\SprPlayer</sprite>
+    <sprite>sprites\SprSolid</sprite>
   </sprites>
+  <backgrounds name="background">
+    <background>background\bg_dark</background>
+    <background>background\BgDeath</background>
+    <background>background\GameOverScreen</background>
+  </backgrounds>
+  <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\ActorInit.gml</script>
+    <script>scripts\ActorStep.gml</script>
+    <script>scripts\bulletcreate.gml</script>
+    <script>scripts\BulletEnemyInit.gml</script>
+    <script>scripts\BulletEnemyStep.gml</script>
+    <script>scripts\DamagePlayer.gml</script>
+    <script>scripts\EnemyInit.gml</script>
+    <script>scripts\EnemyStep.gml</script>
+    <script>scripts\MusicLoop.gml</script>
+    <script>scripts\Pause.gml</script>
+    <script>scripts\player_init.gml</script>
+    <script>scripts\PlayerInit.gml</script>
+    <script>scripts\PlayerStep.gml</script>
+    <script>scripts\sc_flyenemystep.gml</script>
+    <script>scripts\sc_flyspawnercreate.gml</script>
+    <script>scripts\sc_flyspawnerstep.gml</script>
+    <script>scripts\sc_opendoor.gml</script>
+    <script>scripts\sc_spawnercreate.gml</script>
+    <script>scripts\sc_spawnerstep.gml</script>
+    <script>scripts\ShooterStep.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\bullet</object>
+    <object>objects\explosion</object>
+    <object>objects\ObjDeathBgm</object>
+    <object>objects\ObjDoor1</object>
+    <object>objects\ObjEnemyBullet</object>
+    <object>objects\ObjEnemyShooter</object>
+    <object>objects\ObjEnemyspawner</object>
+    <object>objects\ObjEnemyWalker</object>
+    <object>objects\ObjFlyEnemySpawner</object>
+    <object>objects\ObjFlyingEnemy</object>
+    <object>objects\ObjGround</object>
+    <object>objects\ObjLvlBgm</object>
+    <object>objects\ObjMenuButton</object>
+    <object>objects\ObjPlayButton</object>
+    <object>objects\ObjPlayer</object>
+    <object>objects\ObjQuitButton</object>
+    <object>objects\ObjSolid</object>
+    <object>objects\ObjTitleBgm</object>
+    <object>objects\ObjUI</object>
+    <object>objects\ParActor</object>
+    <object>objects\ParEnemy</object>
+    <object>objects\ParProjectile</object>
+    <object>objects\wall_pholder</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Death</room>
+    <room>rooms\MainMenu</room>
+    <room>rooms\rm_hub</room>
+    <room>rooms\Room</room>
+  </rooms>
+  <help>
+    <rtf>help.rtf</rtf>
+  </help>
+  <TutorialState>
+    <IsTutorial>0</IsTutorial>
+    <TutorialName></TutorialName>
+    <TutorialPage>0</TutorialPage>
+  </TutorialState>
 </assets>
