@@ -5,3 +5,4 @@ jspd = 15;
 hspd = 0;
 vspd = 0;
 health = 5;
+inv=0;

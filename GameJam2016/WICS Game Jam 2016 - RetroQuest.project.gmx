@@ -15,7 +15,6 @@
     <sprite>sprites\HealthBar</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\space_pholder</background>
     <background>background\BgDeath</background>
   </backgrounds>
   <paths name="paths"/>

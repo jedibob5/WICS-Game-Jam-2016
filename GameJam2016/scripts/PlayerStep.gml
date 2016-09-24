@@ -67,3 +67,4 @@ if(place_meeting(x, y+vspd, ObjSolid))
 
 // Move vertically
 y += vspd;
+inv--;
