@@ -4,7 +4,12 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bgm_title</sound>
+    <sound>sound\bgm_lvl</sound>
+    <sound>sound\bgm_portle</sound>
+    <sound>sound\bgm_Gameo</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
     <sprite>sprites\HealthBar</sprite>
@@ -62,8 +67,8 @@
   <objects name="objects">
     <object>objects\bullet</object>
     <object>objects\explosion</object>
-    <object>objects\ObjDeathBgm</object>
     <object>objects\ObjDoor1</object>
+    <object>objects\ObjDoor2</object>
     <object>objects\ObjEnemyBullet</object>
     <object>objects\ObjEnemyShooter</object>
     <object>objects\ObjEnemyspawner</object>
@@ -78,18 +83,21 @@
     <object>objects\ObjPlayer</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjSolid</object>
-    <object>objects\ObjTitleBgm</object>
     <object>objects\ObjUI</object>
     <object>objects\ParActor</object>
     <object>objects\ParEnemy</object>
     <object>objects\ParProjectile</object>
     <object>objects\wall_pholder</object>
+    <object>objects\ObjBgmTitle</object>
+    <object>objects\ObjBgmLvl1</object>
+    <object>objects\ObjBgmDeath</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Death</room>
     <room>rooms\MainMenu</room>
+    <room>rooms\Death</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
+    <room>rooms\RangedTestRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
