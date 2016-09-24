@@ -23,9 +23,15 @@
     <sprite>sprites\sp_boom</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
     <sprite>sprites\sp_ground</sprite>
+    <sprite>sprites\sp_bird</sprite>
+    <sprite>sprites\sp_bird2</sprite>
+    <sprite>sprites\sp_divebomb</sprite>
+    <sprite>sprites\sp_door1</sprite>
+    <sprite>sprites\sprite21</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\GameOverScreen</background>
+    <background>background\bg_dark</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -42,6 +48,10 @@
     <script>scripts\bulletcreate.gml</script>
     <script>scripts\sc_spawnercreate.gml</script>
     <script>scripts\sc_spawnerstep.gml</script>
+    <script>scripts\sc_flyspawnerstep.gml</script>
+    <script>scripts\sc_flyspawnercreate.gml</script>
+    <script>scripts\sc_flyenemystep.gml</script>
+    <script>scripts\sc_opendoor.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\wall_pholder</object>
@@ -61,11 +71,15 @@
     <object>objects\ObjEnemyspawner</object>
     <object>objects\explosion</object>
     <object>objects\ObjGround</object>
+    <object>objects\ObjFlyingEnemy</object>
+    <object>objects\ObjFlyEnemySpawner</object>
+    <object>objects\ObjDoor1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\Room</room>
     <room>rooms\Death</room>
+    <room>rooms\rm_hub</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

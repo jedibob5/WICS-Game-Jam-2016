@@ -4,6 +4,7 @@ grav = 1;
 spd = 2;
 hspd = 0;
 vspd = 0;
+jumping = false;
 
 //Variables for enemies with ranged attacks
 inRangeX = false;
