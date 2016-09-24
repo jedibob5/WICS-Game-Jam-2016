@@ -4,7 +4,14 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bgm_go</sound>
+    <sound>sound\bgm_lvl1</sound>
+    <sound>sound\bgm_title</sound>
+    <sound>sound\bgm_title2</sound>
+    <sound>sound\bgm_portle</sound>
+    <sound>sound\bgm_Gameo</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
     <sprite>sprites\HealthBar</sprite>
@@ -19,9 +26,6 @@
     <sprite>sprites\sp_enemyspawner</sprite>
     <sprite>sprites\sp_ground</sprite>
     <sprite>sprites\sp_player</sprite>
-    <sprite>sprites\sp_player_run</sprite>
-    <sprite>sprites\sp_spawner_hurt</sprite>
-    <sprite>sprites\sp_walk_enemy1</sprite>
     <sprite>sprites\SprBulletEnemy</sprite>
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\SprMenuMenu</sprite>
@@ -29,6 +33,10 @@
     <sprite>sprites\SprMenuQuit</sprite>
     <sprite>sprites\SprPlayer</sprite>
     <sprite>sprites\SprSolid</sprite>
+    <sprite>sprites\sp_spawner_hurt</sprite>
+    <sprite>sprites\sp_walkingenemy1</sprite>
+    <sprite>sprites\sp_player_run1</sprite>
+    <sprite>sprites\sprite27</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -84,8 +92,8 @@
     <object>objects\wall_pholder</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Death</room>
     <room>rooms\MainMenu</room>
+    <room>rooms\Death</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
   </rooms>
