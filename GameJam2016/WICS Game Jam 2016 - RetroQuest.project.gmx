@@ -4,13 +4,7 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\bgm_go</sound>
-    <sound>sound\bgm_lvl1</sound>
-    <sound>sound\bgm_title</sound>
-    <sound>sound\bgm_title2</sound>
-    <sound>sound\bgm_Hub</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
     <sprite>sprites\HealthBar</sprite>
@@ -34,10 +28,6 @@
     <sprite>sprites\SprSolid</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
     <sprite>sprites\sp_walkingenemy1</sprite>
-    <sprite>sprites\sprMetalGround</sprite>
-    <sprite>sprites\sprRust</sprite>
-    <sprite>sprites\sprLargeMetal</sprite>
-    <sprite>sprites\sprLargeRust</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -65,6 +55,7 @@
     <script>scripts\sc_spawnercreate.gml</script>
     <script>scripts\sc_spawnerstep.gml</script>
     <script>scripts\ShooterStep.gml</script>
+    <script>scripts\sc_enemy_walker_step1.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -76,12 +67,7 @@
     <object>objects\ObjEnemyspawner</object>
     <object>objects\ObjEnemyWalker</object>
     <object>objects\ObjFlyEnemySpawner</object>
-    <object>objects\poop</object>
     <object>objects\ObjGround</object>
-    <object>objects\ObjMetal</object>
-    <object>objects\ObjRust</object>
-    <object>objects\ObjLargeRust</object>
-    <object>objects\ObjLargeMetal</object>
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
@@ -93,9 +79,6 @@
     <object>objects\ParActor</object>
     <object>objects\ParEnemy</object>
     <object>objects\ParProjectile</object>
-    <object>objects\wall_pholder</object>
-    <object>objects\ObjLvl1Bgm</object>
-    <object>objects\ObjHubBgm</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjFlyingEnemy</object>
   </objects>
