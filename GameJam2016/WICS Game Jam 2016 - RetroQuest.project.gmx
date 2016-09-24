@@ -32,6 +32,12 @@
     <sprite>sprites\sprRust</sprite>
     <sprite>sprites\sprLargeMetal</sprite>
     <sprite>sprites\sprLargeRust</sprite>
+    <sprite>sprites\sprCityBlock</sprite>
+    <sprite>sprites\sprEnemySpawner</sprite>
+    <sprite>sprites\sprTinyMetal</sprite>
+    <sprite>sprites\sprTinyDirt</sprite>
+    <sprite>sprites\sprTinyBlock</sprite>
+    <sprite>sprites\sprTinyGrass</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -90,6 +96,11 @@
     <object>objects\ParProjectile</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjFlyingEnemy</object>
+    <object>objects\ObjCityBlock</object>
+    <object>objects\ObjTinyMetal</object>
+    <object>objects\ObjTinyDirt</object>
+    <object>objects\ObjTinyGrass</object>
+    <object>objects\ObjTinyBlock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
