@@ -9,8 +9,7 @@
     <sound>sound\bgm_lvl1</sound>
     <sound>sound\bgm_title</sound>
     <sound>sound\bgm_title2</sound>
-    <sound>sound\bgm_portle</sound>
-    <sound>sound\bgm_Gameo</sound>
+    <sound>sound\bgm_Hub</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
@@ -90,6 +89,8 @@
     <object>objects\ParEnemy</object>
     <object>objects\ParProjectile</object>
     <object>objects\wall_pholder</object>
+    <object>objects\ObjLvl1Bgm</object>
+    <object>objects\ObjHubBgm</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
