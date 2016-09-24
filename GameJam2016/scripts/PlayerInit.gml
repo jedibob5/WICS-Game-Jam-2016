@@ -1,8 +1,5 @@
 /// Initialize variables
-grav = 1;
-spd = 4;
-jspd = 15;
-hspd = 0;
-vspd = 0;
+event_inherited();
+
 health = 5;
-inv=0;
+inv = 0;

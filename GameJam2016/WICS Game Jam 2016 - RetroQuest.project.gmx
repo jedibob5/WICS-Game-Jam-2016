@@ -12,30 +12,40 @@
     <sprite>sprites\SprSolid</sprite>
     <sprite>sprites\SprMenuPlay</sprite>
     <sprite>sprites\SprMenuQuit</sprite>
+    <sprite>sprites\SprMenuMenu</sprite>
     <sprite>sprites\HealthBar</sprite>
+    <sprite>sprites\SprBulletEnemy</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\BgDeath</background>
+    <background>background\GameOverScreen</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\PlayerInit.gml</script>
     <script>scripts\PlayerStep.gml</script>
-    <script>scripts\Pause.gml</script>
-    <script>scripts\StepWalker.gml</script>
-    <script>scripts\ColHarmful.gml</script>
-    <script>scripts\VarWalker.gml</script>
+    <script>scripts\EnemyStep.gml</script>
+    <script>scripts\DamagePlayer.gml</script>
+    <script>scripts\EnemyInit.gml</script>
+    <script>scripts\ShooterStep.gml</script>
+    <script>scripts\BulletEnemyStep.gml</script>
+    <script>scripts\ActorInit.gml</script>
+    <script>scripts\ActorStep.gml</script>
+    <script>scripts\BulletEnemyInit.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\wall_pholder</object>
-    <object>objects\ObjPlayerStick</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjSolid</object>
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjUI</object>
-    <object>objects\Walker</object>
-    <object>objects\ParHarmful</object>
+    <object>objects\ObjEnemyWalker</object>
+    <object>objects\ParEnemy</object>
+    <object>objects\ObjMenuButton</object>
+    <object>objects\ObjEnemyShooter</object>
+    <object>objects\ObjEnemyBullet</object>
+    <object>objects\ParActor</object>
+    <object>objects\ParProjectile</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>

@@ -1,23 +1,20 @@
 // Check for ground
-if(place_meeting(x, y+1, ObjSolid))
+if(place_meeting(x, y+1, ObjSolid) && !jumping)
 {
     vspd = 0;
-}
-else
+    isOnGround = true;
+} else
 {
+    if(jumping)
+    {
+        jumping = false;
+    }
+    isOnGround = false;
     // Gravity
     if(vspd < 10)
     {
         vspd += grav;
     }
-}
-
-if(x > ObjPlayer.x)
-{
-    hspd = -spd;
-} else
-{
-    hspd = spd
 }
 
 // Horizontal collisions

@@ -1,27 +1,16 @@
-/// Platform physics
+event_inherited();
 
+// Check for player input
 var rkey = keyboard_check(ord("D"));
 var lkey = keyboard_check(ord("A"));
-var jkey = keyboard_check(ord("W"));
+var jkey = keyboard_check_pressed(ord("W"));
 
-// Check for ground
-if(place_meeting(x, y+1, ObjSolid))
+//Jumping
+if(isOnGround && jkey)
 {
-    vspd = 0;
-    
-    // Jumping
-    if(jkey)
-    {
-        vspd = -jspd;
-    }
-}
-else
-{
-    // Gravity
-    if(vspd < 10)
-    {
-        vspd += grav;
-    }
+    isOnGround = false;
+    jumping = true;
+    vspd = -jspd;
 }
 
 // Moving right
@@ -42,29 +31,17 @@ if((!rkey && !lkey) || (rkey && lkey))
     hspd = 0;
 }
 
-// Horizontal collisions
-if(place_meeting(x+hspd, y, ObjSolid))
+//Invulnerability timer decrement
+if(inv >= 0)
 {
-    while(!place_meeting(x+sign(hspd), y, ObjSolid))
-    {
-        x += sign(hspd);
-    }
-    hspd = 0;
+    inv--;
 }
 
-// Move horizontally
-x += hspd;
-
-// Vertical collisions
-if(place_meeting(x, y+vspd, ObjSolid))
+//Sprite flashing when invulnerable
+if(inv > 0 && inv % 4 == 0)
 {
-    while(!place_meeting(x, y+sign(vspd), ObjSolid))
-    {
-        y += sign(vspd);
-    }
-    vspd = 0;
+    image_alpha = 0;
+} else if(inv > 0 && inv % 2 == 0)
+{
+    image_alpha = 1;
 }
-
-// Move vertically
-y += vspd;
-inv--;
