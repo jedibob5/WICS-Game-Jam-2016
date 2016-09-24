@@ -92,7 +92,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="32">
+    <event eventtype="9" enumb="13">
       <action>
         <libid>1</libid>
         <id>201</id>

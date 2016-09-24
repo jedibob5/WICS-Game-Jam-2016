@@ -3,7 +3,8 @@ event_inherited();
 // Check for player input
 var rkey = keyboard_check(ord("D"));
 var lkey = keyboard_check(ord("A"));
-var jkey = keyboard_check_pressed(ord("W"));
+var jkey = keyboard_check_pressed(vk_space);
+var ukey = keyboard_check(ord("W"));
 
 //Jumping
 if(isOnGround && jkey)
