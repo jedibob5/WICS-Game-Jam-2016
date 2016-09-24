@@ -14,6 +14,8 @@
     <sprite>sprites\wall_temp</sprite>
     <sprite>sprites\HealthBar</sprite>
     <sprite>sprites\player</sprite>
+    <sprite>sprites\sp_player</sprite>
+    <sprite>sprites\sp_player_run1</sprite>
     <sprite>sprites\player_blank</sprite>
     <sprite>sprites\sp_bird</sprite>
     <sprite>sprites\sp_bird2</sprite>
@@ -23,9 +25,7 @@
     <sprite>sprites\sp_door1</sprite>
     <sprite>sprites\sp_enemyspawner</sprite>
     <sprite>sprites\sp_ground</sprite>
-    <sprite>sprites\sp_player</sprite>
     <sprite>sprites\SprBulletEnemy</sprite>
-    <sprite>sprites\sprite21</sprite>
     <sprite>sprites\SprMenuMenu</sprite>
     <sprite>sprites\SprMenuPlay</sprite>
     <sprite>sprites\SprMenuQuit</sprite>
@@ -33,8 +33,6 @@
     <sprite>sprites\SprSolid</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
     <sprite>sprites\sp_walkingenemy1</sprite>
-    <sprite>sprites\sp_player_run1</sprite>
-    <sprite>sprites\sprite27</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -53,7 +51,6 @@
     <script>scripts\EnemyStep.gml</script>
     <script>scripts\MusicLoop.gml</script>
     <script>scripts\Pause.gml</script>
-    <script>scripts\player_init.gml</script>
     <script>scripts\PlayerInit.gml</script>
     <script>scripts\PlayerStep.gml</script>
     <script>scripts\sc_flyenemystep.gml</script>
@@ -74,20 +71,21 @@
     <object>objects\ObjEnemyspawner</object>
     <object>objects\ObjEnemyWalker</object>
     <object>objects\ObjFlyEnemySpawner</object>
-    <object>objects\ObjFlyingEnemy</object>
+    <object>objects\poop</object>
     <object>objects\ObjGround</object>
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
-    <object>objects\ObjPlayer</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjSolid</object>
+    <object>objects\wall_pholder</object>
     <object>objects\ObjTitleBgm</object>
     <object>objects\ObjUI</object>
     <object>objects\ParActor</object>
     <object>objects\ParEnemy</object>
     <object>objects\ParProjectile</object>
-    <object>objects\wall_pholder</object>
+    <object>objects\ObjPlayer</object>
+    <object>objects\ObjFlyingEnemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
