@@ -81,10 +81,6 @@
     <object>objects\ObjEnemyWalker</object>
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjGround</object>
-    <object>objects\ObjLargeRust</object>
-    <object>objects\ObjLargeMetal</object>
-    <object>objects\ObjRust</object>
-    <object>objects\ObjMetal</object>
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
