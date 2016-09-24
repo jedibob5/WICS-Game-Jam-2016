@@ -16,12 +16,16 @@
   </sprites>
   <backgrounds name="background">
     <background>background\space_pholder</background>
+    <background>background\BgDeath</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\PlayerInit.gml</script>
     <script>scripts\PlayerStep.gml</script>
     <script>scripts\Pause.gml</script>
+    <script>scripts\StepWalker.gml</script>
+    <script>scripts\ColHarmful.gml</script>
+    <script>scripts\VarWalker.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\wall_pholder</object>
@@ -31,10 +35,13 @@
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjUI</object>
+    <object>objects\Walker</object>
+    <object>objects\ParHarmful</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\Room</room>
+    <room>rooms\Death</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
