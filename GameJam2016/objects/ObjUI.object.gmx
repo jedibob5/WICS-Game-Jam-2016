@@ -83,13 +83,8 @@
     draw_sprite(HealthBar, 5 - health, 64, 64);
 } else
 {
-    if(ObjPlayer.x &lt;= 512) {
-        instance_create(512, 256, ObjPlayButton);
-        instance_create(512, 512, ObjQuitButton);
-    } else {
-        instance_create(512 + (ObjPlayer.x - 512), 256, ObjPlayButton);
-        instance_create(512 + (ObjPlayer.x - 512), 512, ObjQuitButton);
-    }
+    instance_create(512 + view_xport, 256 + view_yport, ObjPlayButton);
+    instance_create(512 + view_xport, 512 + view_yport, ObjQuitButton);
 }
 </string>
           </argument>

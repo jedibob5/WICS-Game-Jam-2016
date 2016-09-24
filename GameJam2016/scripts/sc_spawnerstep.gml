@@ -1,4 +1,4 @@
 count ++;
-if(count % 50 == 0 && abs(x - ObjPlayer.x) < 640) {
+if(count % 50 == 0) {
     instance_create(x, y, ObjEnemyWalker);
 }
