@@ -83,8 +83,8 @@
     draw_sprite(HealthBar, 5 - health, 64, 64);
 } else
 {
-    instance_create(512 + view_xport, 256 + view_yport, ObjPlayButton);
-    instance_create(512 + view_xport, 512 + view_yport, ObjQuitButton);
+    instance_create(512 + view_xview[0], 256 + view_yview[0], ObjPlayButton);
+    instance_create(512 + view_xview[0], 512 + view_yview[0], ObjQuitButton);
 }
 </string>
           </argument>
