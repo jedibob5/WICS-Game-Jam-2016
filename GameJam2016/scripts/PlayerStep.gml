@@ -18,6 +18,7 @@ if(isOnGround && jkey)
 if(rkey)
 {
     hspd = spd;
+    sprite_assign(player, sp_player_run1);
     image_xscale = -1;
 }
 
@@ -25,6 +26,7 @@ if(rkey)
 if(lkey)
 {
     hspd = -spd;
+    sprite_assign(player, sp_player_run1);
     image_xscale = 1;
 }
 
@@ -32,7 +34,7 @@ if(lkey)
 if((!rkey && !lkey) || (rkey && lkey))
 {
     hspd = 0;
-    sprite_assign(ObjPlayer, sp_player);
+    sprite_assign(player, sp_player);
 }
 
 //Invulnerability timer decrement
