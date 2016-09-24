@@ -135,7 +135,6 @@
     <instance objName="ObjGround" x="1792" y="608" name="inst_E6250833" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjEnemyspawner" x="2176" y="672" name="inst_1B213AE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjDoor1" x="-64" y="672" name="inst_6058F62B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjBgmLvl1" x="0" y="32" name="inst_38F6F487" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
