@@ -3,7 +3,7 @@ event_inherited();
 // Check for player input
 var rkey = keyboard_check(ord("D"));
 var lkey = keyboard_check(ord("A"));
-var jkey = keyboard_check_pressed(vk_space);
+var jkey = keyboard_check(vk_space);
 var ukey = keyboard_check(ord("W"));
 
 //Jumping
@@ -11,7 +11,12 @@ if(isOnGround && jkey)
 {
     isOnGround = false;
     jumping = true;
+    jumpTimer = 10;
     vspd = -jspd;
+} else if(jumpTimer > 0 && jkey)
+{
+    vspd = -jspd;
+    jumpTimer--;
 }
 
 // Moving right
