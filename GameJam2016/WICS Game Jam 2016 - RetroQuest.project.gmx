@@ -4,7 +4,13 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bgm_go</sound>
+    <sound>sound\bgm_Hub</sound>
+    <sound>sound\bgm_lvl1</sound>
+    <sound>sound\bgm_title</sound>
+    <sound>sound\bgm_title2</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
     <sprite>sprites\HealthBar</sprite>
@@ -101,6 +107,7 @@
     <object>objects\ObjTinyBlock</object>
     <object>objects\ParPickup</object>
     <object>objects\PickupHealth</object>
+    <object>objects\ObjHubBgm</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
