@@ -51,6 +51,7 @@
     <sprite>sprites\sp_walkenemyspawner_hurt</sprite>
     <sprite>sprites\sp_largebomb</sprite>
     <sprite>sprites\sp_largeboom</sprite>
+    <sprite>sprites\sp_door2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -118,6 +119,7 @@
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
     <object>objects\ObjBgmHub</object>
+    <object>objects\ObjDoor2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
