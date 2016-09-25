@@ -109,4 +109,4 @@ else if(ObjPlayer.y<y-64){
     throwing=84;
     sprite_index = sp_128ph_atk;
     image_index = 0;
-}
+}}

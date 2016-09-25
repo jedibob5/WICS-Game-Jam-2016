@@ -195,7 +195,6 @@
     <object>objects\ObjSensor</object>
     <object>objects\ObjBgmlvl2</object>
     <object>objects\ObjLazer</object>
-    <object>objects\ObjLargeMetal</object>
     <object>objects\ObjBgmlvl3</object>
     <object>objects\ObjBgmBoss</object>
     <object>objects\ObjSfxWin</object>
@@ -207,11 +206,11 @@
     <room>rooms\goodjob</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_hub2</room>
-    <room>rooms\rm_level3</room>
+    <room>rooms\rm_boss</room>
     <room>rooms\rm_lvl2</room>
+    <room>rooms\rm_level3</room>
     <room>rooms\Room</room>
     <room>rooms\THE_GAUNTLET</room>
-    <room>rooms\rm_boss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
