@@ -2,6 +2,14 @@ if(health == 0) {
     instance_deactivate_object(ObjBoss);
 }
 
+deadframes = 0;
+if(deadframes > 0) {
+    deadframes++;
+}
+if(deadframes == 60) {
+    room_goto(goodjob);
+}
+
 //launch
 if(place_meeting(x, y+1, ObjSolid) && !jumping)
 {
