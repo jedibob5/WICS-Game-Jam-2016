@@ -30,12 +30,12 @@
     <sprite>sprites\SprMenuMenu</sprite>
     <sprite>sprites\SprMenuPlay</sprite>
     <sprite>sprites\SprMenuQuit</sprite>
+    <sprite>sprites\sp_hub_button</sprite>
     <sprite>sprites\SprPlayer</sprite>
     <sprite>sprites\SprSolid</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
     <sprite>sprites\sp_walkingenemy1</sprite>
     <sprite>sprites\Health</sprite>
-    <sprite>sprites\sprite23</sprite>
     <sprite>sprites\sprMetal</sprite>
     <sprite>sprites\sprRust</sprite>
     <sprite>sprites\sprLargeMetal</sprite>
@@ -57,6 +57,7 @@
     <sprite>sprites\sp_THE_GAUNTLET</sprite>
     <sprite>sprites\sp_goodjob</sprite>
     <sprite>sprites\sp_check</sprite>
+    <sprite>sprites\sp_door3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -95,13 +96,13 @@
     <script>scripts\sc_gauntlet_step.gml</script>
     <script>scripts\sc_Room_control.gml</script>
     <script>scripts\sc_rmlvl2_control.gml</script>
-    <script>scripts\sc_rmlvl2_control_new.gml</script>
+    <script>scripts\sc_rmlevel3_control_new.gml</script>
+    <script>scripts\sc_title_control.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
     <object>objects\explosion</object>
     <object>objects\ObjDeathBgm</object>
-    <object>objects\ObjDoor1</object>
     <object>objects\ObjEnemyBullet</object>
     <object>objects\ObjEnemyShooter</object>
     <object>objects\ObjEnemyspawner</object>
@@ -137,21 +138,33 @@
     <object>objects\ParDoor</object>
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
+    <object>objects\ObjDoor1</object>
     <object>objects\ObjDoor2</object>
+    <object>objects\ObjDoor3</object>
     <object>objects\ObjMetal</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
     <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
+    <object>objects\ObjHubButton</object>
+    <object>objects\ObjTitleControl</object>
+    <object>objects\ObjCheck1</object>
+    <object>objects\ObjCheck2</object>
+    <object>objects\ObjCheck3</object>
+    <object>objects\ObjRoomControl</object>
+    <object>objects\Obj_rmlvl2_control</object>
+    <object>objects\Obj_rmlvl3_control</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Title</room>
     <room>rooms\MainMenu</room>
     <room>rooms\Death</room>
     <room>rooms\goodjob</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
     <room>rooms\rm_lvl2</room>
+    <room>rooms\rm_level3</room>
     <room>rooms\THE_GAUNTLET</room>
   </rooms>
   <help>
