@@ -32,16 +32,6 @@ if(place_meeting(x+hspd, y, ObjSolid))
         x += sign(hspd);
     }
     hspd = 0;
-    sprite_index = sp_128ph;
-}
-
-//Collision with player
-if(distance_to_object(ObjPlayer) <= 32) {
-    sprite_index = sp_128ph_atk;
-} else if(abs(hspd) > 0) {
-    sprite_index = sp_128ph_walk;
-} else {
-    sprite_index = sp_128ph;
 }
 
 // Move horizontally
@@ -64,15 +54,11 @@ y += vspd;
 if(!launched){
     if(x > ObjPlayer.x)
     {
-        spd = 4;
         hspd = -spd;
-        sprite_index = sp_128ph_walk;
         image_xscale = 1;
     } else
     {
-        spd = 4;
         hspd = spd;
-        sprite_index = sp_128ph_walk;
         image_xscale = -1;
     }
 }
@@ -88,7 +74,7 @@ if(place_meeting(x + sign(hspd), y, ObjSolid)) {
         x += sign(hspd);
     }
     hspd = 0;
-    sprite_index = sp_128ph;
+    image_index = 2;
 }
 
 //throw enemies on player jump
@@ -99,7 +85,7 @@ if(throwing>0){
     if(throwing==20||throwing==41||throwing==62){
         with(instance_create(x+24*sign(hspd), y, ObjEnemyWalker)){
             launched=true;
-            hspd=10*sign(ObjPlayer.x - x);
+            hspd=10*image_xscale;
             vspd=-10;
         }
     }

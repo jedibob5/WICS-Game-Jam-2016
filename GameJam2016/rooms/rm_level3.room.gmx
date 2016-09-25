@@ -349,6 +349,7 @@
     <instance objName="ObjTransparentGround" x="4960" y="736" name="inst_62486B35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjFlyEnemySpawner" x="6784" y="352" name="inst_FBD67A0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjFlyEnemySpawner" x="8064" y="416" name="inst_974F156C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjBgmlvl3" x="0" y="64" name="inst_115A6032" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

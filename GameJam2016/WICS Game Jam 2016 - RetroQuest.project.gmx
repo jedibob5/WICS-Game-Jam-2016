@@ -13,6 +13,7 @@
     <sound>sound\bgm_boss</sound>
     <sound>sound\bgm_lvl2</sound>
     <sound>sound\bgm_goWait</sound>
+    <sound>sound\bgm_lvl3</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
@@ -63,11 +64,7 @@
     <sprite>sprites\sp_door3</sprite>
     <sprite>sprites\ControlsScreen</sprite>
     <sprite>sprites\sp_bossdoor</sprite>
-    <sprite>sprites\sp_wep_run</sprite>
     <sprite>sprites\sp_128ph</sprite>
-    <sprite>sprites\sp_128ph_atk</sprite>
-    <sprite>sprites\sp_128ph_walk</sprite>
-    <sprite>sprites\sp_boss</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -77,8 +74,6 @@
     <background>background\background6</background>
     <background>background\bg_red</background>
     <background>background\bg_blue</background>
-    <background>background\bg_trippy_red</background>
-    <background>background\bg_trippy_blue</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -107,15 +102,14 @@
     <script>scripts\PickupCollide.gml</script>
     <script>scripts\sc_gauntlet_control.gml</script>
     <script>scripts\sc_gauntlet_step.gml</script>
+    <script>scripts\BossStep.gml</script>
     <script>scripts\sc_Room_control.gml</script>
     <script>scripts\sc_rmlvl2_control.gml</script>
     <script>scripts\sc_rmlevel3_control_new.gml</script>
     <script>scripts\sc_title_control.gml</script>
-    <script>scripts\BossStep.gml</script>
-    <script>scripts\OnHitBoss.gml</script>
-    <script>scripts\BossMinionStep.gml</script>
-    <script>scripts\SensorStep.gml</script>
     <script>scripts\sc_sensor_spawn.gml</script>
+    <script>scripts\SensorStep.gml</script>
+    <script>scripts\OnHitBoss.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -125,7 +119,6 @@
     <object>objects\ObjEnemyShooter</object>
     <object>objects\ObjEnemyspawner</object>
     <object>objects\ObjEnemyWalker</object>
-    <object>objects\ObjBossMinion</object>
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjFlyEnemySpawnerRight</object>
     <object>objects\ObjHard_FlyEnemySpawner</object>
@@ -157,17 +150,17 @@
     <object>objects\ParDoor</object>
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
-    <object>objects\ObjLargeExplosion_nodamage</object>
+    <object>objects\ObjLargeMetal</object>
+    <object>objects\ObjMetal</object>
     <object>objects\ObjDoor1</object>
     <object>objects\ObjDoor2</object>
     <object>objects\ObjDoor3</object>
-    <object>objects\ObjBossDoor</object>
-    <object>objects\ObjMetal</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
     <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
+    <object>objects\ObjBoss</object>
     <object>objects\ObjHubButton</object>
     <object>objects\ObjTitleControl</object>
     <object>objects\ObjCheck1</object>
@@ -179,10 +172,11 @@
     <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjCtrlMenuReturnBox</object>
-    <object>objects\ObjBoss</object>
+    <object>objects\ObjBossDoor</object>
     <object>objects\ObjSensor</object>
-    <object>objects\ObjBgmBoss</object>
     <object>objects\ObjBgmlvl2</object>
+    <object>objects\ObjBgmlvl3</object>
+    <object>objects\ObjBgmBoss</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
