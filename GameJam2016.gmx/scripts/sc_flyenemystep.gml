@@ -1,4 +1,5 @@
-if(abs(ObjPlayer.x - x) <= 256) {
+//Old divebombing code
+/*if(abs(ObjPlayer.x - x) <= 256) {
     sprite_assign(sp_bird, sp_divebomb);
     if(sign(ObjPlayer.x - x) == -1) {
         image_xscale = 1;
@@ -12,4 +13,10 @@ if(abs(ObjPlayer.x - x) <= 256) {
 } else {
     direction = 180 * sign(ObjPlayer.x - x);
     sprite_assign(sp_bird, sp_bird2);
+}
+*/
+
+//Dropping bombs
+if(random(100) < 1) {
+    instance_create(x, y + 32, ObjLargeBomb);
 }
