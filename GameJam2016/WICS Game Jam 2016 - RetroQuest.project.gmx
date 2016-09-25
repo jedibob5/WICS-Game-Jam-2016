@@ -62,6 +62,9 @@
     <sprite>sprites\sp_bossdoor</sprite>
     <sprite>sprites\sp_wep_run</sprite>
     <sprite>sprites\sp_128ph</sprite>
+    <sprite>sprites\sp_128ph_atk</sprite>
+    <sprite>sprites\sp_128ph_walk</sprite>
+    <sprite>sprites\sp_boss</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -101,15 +104,15 @@
     <script>scripts\PickupCollide.gml</script>
     <script>scripts\sc_gauntlet_control.gml</script>
     <script>scripts\sc_gauntlet_step.gml</script>
-    <script>scripts\BossStep.gml</script>
     <script>scripts\sc_Room_control.gml</script>
     <script>scripts\sc_rmlvl2_control.gml</script>
     <script>scripts\sc_rmlevel3_control_new.gml</script>
     <script>scripts\sc_title_control.gml</script>
-    <script>scripts\sc_sensor_spawn.gml</script>
-    <script>scripts\SensorStep.gml</script>
+    <script>scripts\BossStep.gml</script>
     <script>scripts\OnHitBoss.gml</script>
     <script>scripts\BossMinionStep.gml</script>
+    <script>scripts\SensorStep.gml</script>
+    <script>scripts\sc_sensor_spawn.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -151,19 +154,17 @@
     <object>objects\ParDoor</object>
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
-    <object>objects\ObjLargeMetal</object>
-    <object>objects\ObjMetal</object>
-    <object>objects\ObjBgmHub</object>
+    <object>objects\ObjLargeExplosion_nodamage</object>
     <object>objects\ObjDoor1</object>
     <object>objects\ObjDoor2</object>
     <object>objects\ObjDoor3</object>
     <object>objects\ObjBossDoor</object>
+    <object>objects\ObjMetal</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
     <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
-    <object>objects\ObjBoss</object>
     <object>objects\ObjHubButton</object>
     <object>objects\ObjTitleControl</object>
     <object>objects\ObjCheck1</object>
@@ -175,6 +176,7 @@
     <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjCtrlMenuReturnBox</object>
+    <object>objects\ObjBoss</object>
     <object>objects\ObjSensor</object>
   </objects>
   <rooms name="rooms">
