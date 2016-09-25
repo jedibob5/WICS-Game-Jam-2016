@@ -55,6 +55,7 @@ controls = false;
     {
         instance_deactivate_all(true);
         pause = true;
+        audio_stop_all();
     }
 }
 </string>
