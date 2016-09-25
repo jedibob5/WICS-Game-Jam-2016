@@ -29,6 +29,7 @@
     <sprite>sprites\SprMenuMenu</sprite>
     <sprite>sprites\SprMenuPlay</sprite>
     <sprite>sprites\SprMenuQuit</sprite>
+    <sprite>sprites\SprMenuCtrls</sprite>
     <sprite>sprites\SprPlayer</sprite>
     <sprite>sprites\SprSolid</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
@@ -52,6 +53,8 @@
     <sprite>sprites\sp_largebomb</sprite>
     <sprite>sprites\sp_largeboom</sprite>
     <sprite>sprites\sp_door2</sprite>
+    <sprite>sprites\ControlsScreen</sprite>
+    <sprite>sprites\SprCtrlMenuReturnBox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -96,6 +99,7 @@
     <object>objects\ObjGround</object>
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
+    <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjSolid</object>
@@ -120,6 +124,8 @@
     <object>objects\ObjLargeExplosion</object>
     <object>objects\ObjBgmHub</object>
     <object>objects\ObjDoor2</object>
+    <object>objects\ObjCtrlScreen</object>
+    <object>objects\ObjCtrlMenuReturnBox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>

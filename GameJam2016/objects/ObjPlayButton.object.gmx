@@ -35,6 +35,7 @@
         ObjUI.pause = false;
         instance_deactivate_object(ObjPlayButton);
         instance_deactivate_object(ObjQuitButton);
+        instance_deactivate_object(ObjMenuCtrls);
     }
 }
 </string>
