@@ -39,6 +39,12 @@
     <sprite>sprites\sprTinyDirt</sprite>
     <sprite>sprites\sprTinyBlock</sprite>
     <sprite>sprites\sprTinyGrass</sprite>
+    <sprite>sprites\sp_walkenemyspawner</sprite>
+    <sprite>sprites\sp_walkenemyspawner_hurt</sprite>
+    <sprite>sprites\sp_flyenemyspawner</sprite>
+    <sprite>sprites\sp_flyenemyspawner_hurt</sprite>
+    <sprite>sprites\sp_largebomb</sprite>
+    <sprite>sprites\sp_largeboom</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -102,12 +108,15 @@
     <object>objects\ParPickup</object>
     <object>objects\PickupHealth</object>
     <object>objects\ParDoor</object>
+    <object>objects\ObjLargeBomb</object>
+    <object>objects\ObjLargeExplosion</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\Death</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
+    <room>rooms\rm_lvl2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
