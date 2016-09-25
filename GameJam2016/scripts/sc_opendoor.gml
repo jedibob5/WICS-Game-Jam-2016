@@ -5,5 +5,7 @@ if(instance_number(ParDoor) > 0) {
         room_goto(rm_lvl2);
     } else if(abs(x - ObjDoor3.x) <= 48 && abs(y - ObjDoor3.y) <= 128) {
         room_goto(rm_level3);
+    } else if(abs(x - ObjBossDoor.x) <= 48 && abs(y - ObjBossDoor.y) <= 128) {
+        room_goto(rm_boss);
     }
 }

@@ -22,14 +22,10 @@ if(isOnGround && jkey)
     jumpTimer--;
 }
 
-// Jumper object response
-if(place_meeting(x, y+5, ObjJumper)){
-    vspd=-jspd*2.5;
-    isOnGround = false;
-}
+
 
 // Moving right
-if(rkey)
+if(rkey && !launched)
 {
     hspd = spd;
     sprite_assign(player, sp_player_run1);
@@ -37,7 +33,7 @@ if(rkey)
 }
 
 // Moving left
-if(lkey)
+if(lkey && !launched)
 {
     hspd = -spd;
     sprite_assign(player, sp_player_run1);
@@ -45,7 +41,7 @@ if(lkey)
 }
 
 // Check for not moving
-if((!rkey && !lkey) || (rkey && lkey))
+if(((!rkey && !lkey) || (rkey && lkey)) && !launched)
 {
     hspd = 0;
     sprite_assign(player, sp_player);
@@ -65,3 +61,16 @@ if(inv > 0 && inv % 4 == 0)
 {
     image_alpha = 1;
 }
+
+// Jumper object response
+if(place_meeting(x, y+5, ObjJumper)){
+    vspd=-jspd*2;
+    hspd=instance_nearest(x, y, ObjJumper).image_xscale*10;
+    isOnGround = false;
+    launched = true;
+}
+if(place_meeting(x, y+1, ObjSolid) && !jumping)
+{
+    launched = false;
+}
+
