@@ -52,12 +52,18 @@
     <sprite>sprites\sp_largebomb</sprite>
     <sprite>sprites\sp_largeboom</sprite>
     <sprite>sprites\sp_door2</sprite>
+    <sprite>sprites\sp_metal</sprite>
+    <sprite>sprites\sp_rustmetal</sprite>
+    <sprite>sprites\sp_THE_GAUNTLET</sprite>
+    <sprite>sprites\sp_goodjob</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
     <background>background\BgDeath</background>
     <background>background\GameOverScreen</background>
     <background>background\background3</background>
+    <background>background\bg_red</background>
+    <background>background\bg_blue</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -74,14 +80,18 @@
     <script>scripts\PlayerInit.gml</script>
     <script>scripts\PlayerStep.gml</script>
     <script>scripts\sc_flyenemystep.gml</script>
+    <script>scripts\sc_hard_flyenemystep_new.gml</script>
     <script>scripts\sc_flyspawnercreate.gml</script>
     <script>scripts\sc_flyspawnerstep.gml</script>
+    <script>scripts\sc_hard_flyspawnerstep.gml</script>
     <script>scripts\sc_opendoor.gml</script>
     <script>scripts\sc_spawnercreate.gml</script>
     <script>scripts\sc_spawnerstep.gml</script>
     <script>scripts\ShooterStep.gml</script>
     <script>scripts\sc_enemy_walker_step1.gml</script>
     <script>scripts\PickupCollide.gml</script>
+    <script>scripts\sc_gauntlet_control.gml</script>
+    <script>scripts\sc_gauntlet_step.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -93,6 +103,8 @@
     <object>objects\ObjEnemyspawner</object>
     <object>objects\ObjEnemyWalker</object>
     <object>objects\ObjFlyEnemySpawner</object>
+    <object>objects\ObjFlyEnemySpawnerRight</object>
+    <object>objects\ObjHard_FlyEnemySpawner</object>
     <object>objects\ObjGround</object>
     <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
@@ -107,6 +119,7 @@
     <object>objects\ParProjectile</object>
     <object>objects\ObjPlayer</object>
     <object>objects\ObjFlyingEnemy</object>
+    <object>objects\ObjHardFlyingEnemy</object>
     <object>objects\ObjCityBlock</object>
     <object>objects\ObjTinyMetal</object>
     <object>objects\ObjTinyDirt</object>
@@ -122,6 +135,12 @@
     <object>objects\ObjMetal</object>
     <object>objects\ObjBgmHub</object>
     <object>objects\ObjDoor2</object>
+    <object>objects\ObjMetal</object>
+    <object>objects\ObjRustMetal</object>
+    <object>objects\Obj_THE_GAUNTLET</object>
+    <object>objects\Obj_to_gauntlet_control</object>
+    <object>objects\Objgoodjob</object>
+    <object>objects\Obj_gauntlet_control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
@@ -130,6 +149,8 @@
     <room>rooms\Room</room>
     <room>rooms\rm_lvl2</room>
     <room>rooms\rm_level3</room>
+    <room>rooms\THE_GAUNTLET</room>
+    <room>rooms\goodjob</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
