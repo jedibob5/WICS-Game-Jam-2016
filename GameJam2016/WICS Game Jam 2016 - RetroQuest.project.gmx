@@ -69,6 +69,8 @@
     <sprite>sprites\SprMenuCtrls</sprite>
     <sprite>sprites\sp_bossdoor</sprite>
     <sprite>sprites\sp_128ph</sprite>
+    <sprite>sprites\sp_128ph_atk</sprite>
+    <sprite>sprites\sp_128ph_walk</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -118,6 +120,7 @@
     <script>scripts\SensorStep.gml</script>
     <script>scripts\OnHitBoss.gml</script>
     <script>scripts\sc_hubbutton.gml</script>
+    <script>scripts\sc_BossInit.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -158,6 +161,7 @@
     <object>objects\ObjJumper</object>
     <object>objects\ParDoor</object>
     <object>objects\ObjLargeBomb</object>
+    <object>objects\ObjLargeExplosion_nodamage</object>
     <object>objects\ObjLargeExplosion</object>
     <object>objects\ObjLargeMetal</object>
     <object>objects\ObjMetal</object>
@@ -197,8 +201,8 @@
     <room>rooms\rm_hub2</room>
     <room>rooms\rm_level3</room>
     <room>rooms\rm_lvl2</room>
-    <room>rooms\THE_GAUNTLET</room>
     <room>rooms\Room</room>
+    <room>rooms\THE_GAUNTLET</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
