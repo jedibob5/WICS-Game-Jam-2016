@@ -10,6 +10,9 @@
     <sound>sound\bgm_lvl1</sound>
     <sound>sound\bgm_title</sound>
     <sound>sound\bgm_title2</sound>
+    <sound>sound\bgm_boss</sound>
+    <sound>sound\bgm_lvl2</sound>
+    <sound>sound\bgm_goWait</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
@@ -171,6 +174,8 @@
     <object>objects\ObjCtrlMenuReturnBox</object>
     <object>objects\ObjBossDoor</object>
     <object>objects\ObjSensor</object>
+    <object>objects\ObjBgmBoss</object>
+    <object>objects\ObjBgmlvl2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
