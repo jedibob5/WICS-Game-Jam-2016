@@ -276,6 +276,14 @@
     <instance objName="ObjEnemyspawner" x="7712" y="608" name="inst_0F956BBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_rmlvl3_control" x="0" y="0" name="inst_C356A8F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjUI" x="0" y="32" name="inst_511F5B1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjMetal" x="2752" y="736" name="inst_40B329FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjMetal" x="2688" y="736" name="inst_AA2E7A3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjMetal" x="2624" y="736" name="inst_98778075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjMetal" x="2560" y="736" name="inst_B44A0465" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjMetal" x="2496" y="736" name="inst_B26BFCA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjMetal" x="2432" y="736" name="inst_756B5603" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjMetal" x="2368" y="736" name="inst_9BA1ED13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjMetal" x="2304" y="736" name="inst_31E419D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTinyMetal" x="2176" y="672" name="inst_E7A5FDA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjFlyEnemySpawner" x="8128" y="256" name="inst_45A70DC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
