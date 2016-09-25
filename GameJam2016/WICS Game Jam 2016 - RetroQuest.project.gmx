@@ -116,6 +116,8 @@
     <script>scripts\BossMinionStep.gml</script>
     <script>scripts\SensorStep.gml</script>
     <script>scripts\sc_sensor_spawn.gml</script>
+    <script>scripts\LazerInit.gml</script>
+    <script>scripts\LazerStep.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -183,6 +185,8 @@
     <object>objects\ObjSensor</object>
     <object>objects\ObjBgmBoss</object>
     <object>objects\ObjBgmlvl2</object>
+    <object>objects\ObjLazer</object>
+    <object>objects\ObjLargeMetal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
