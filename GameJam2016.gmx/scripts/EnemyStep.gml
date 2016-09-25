@@ -11,17 +11,29 @@ if(x > ObjPlayer.x)
 }
 
 //Harm player on collision
-if(place_meeting(x, y, ObjPlayer))
+/*if(place_meeting(x, y, ObjPlayer))
 {
     script_execute(DamagePlayer);
-}
+}*/
 
-// Horizontal collisions
-if(place_meeting(x+hspd, y, ObjEnemyWalker))
+// Horizontal collisions with others
+if(place_meeting(x+hspd, y, ParActor))
 {
-    while(!place_meeting(x+sign(hspd), y, ObjEnemyWalker))
+    while(!place_meeting(x+sign(hspd), y, ParActor))
     {
         x += sign(hspd);
     }
     hspd = 0;
+    image_index = 2;
+}
+
+// Horizontal collisions with walls
+if(place_meeting(x+hspd, y, ObjSolid))
+{
+    while(!place_meeting(x+sign(hspd), y, ObjSolid))
+    {
+        x += sign(hspd);
+    }
+    hspd = 0;
+    image_index = 2;
 }

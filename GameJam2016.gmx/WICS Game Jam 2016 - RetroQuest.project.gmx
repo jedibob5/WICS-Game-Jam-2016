@@ -6,30 +6,25 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\wall_temp</sprite>
-    <sprite>sprites\HealthBar</sprite>
-    <sprite>sprites\player</sprite>
-    <sprite>sprites\player_blank</sprite>
+    <sprite>sprites\sp_wall_temp</sprite>
+    <sprite>sprites\sp_health_bar</sprite>
+    <sprite>sprites\sp_player</sprite>
     <sprite>sprites\sp_bird</sprite>
-    <sprite>sprites\sp_bird2</sprite>
     <sprite>sprites\sp_boom</sprite>
     <sprite>sprites\sp_bullet</sprite>
-    <sprite>sprites\sp_divebomb</sprite>
-    <sprite>sprites\sp_door1</sprite>
-    <sprite>sprites\sp_enemyspawner</sprite>
+    <sprite>sprites\sp_dive_bomb</sprite>
+    <sprite>sprites\sp_door</sprite>
+    <sprite>sprites\sp_enemy_spawner</sprite>
     <sprite>sprites\sp_ground</sprite>
-    <sprite>sprites\sp_player</sprite>
-    <sprite>sprites\SprBulletEnemy</sprite>
-    <sprite>sprites\sprite21</sprite>
-    <sprite>sprites\SprMenuMenu</sprite>
-    <sprite>sprites\SprMenuPlay</sprite>
-    <sprite>sprites\SprMenuQuit</sprite>
-    <sprite>sprites\SprPlayer</sprite>
-    <sprite>sprites\SprSolid</sprite>
+    <sprite>sprites\sp_enemy_bullet</sprite>
+    <sprite>sprites\sp_menu_button</sprite>
+    <sprite>sprites\sp_play_button</sprite>
+    <sprite>sprites\sp_quit_button</sprite>
+    <sprite>sprites\sp_solid</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
-    <sprite>sprites\sp_walkingenemy1</sprite>
-    <sprite>sprites\sp_player_run1</sprite>
-    <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\sp_walking_enemy</sprite>
+    <sprite>sprites\sp_player_run</sprite>
+    <sprite>sprites\sp_player_walking_gun</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>

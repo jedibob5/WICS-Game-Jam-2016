@@ -31,8 +31,8 @@ if(lkey)
 // Check for not moving
 if((!rkey && !lkey) || (rkey && lkey))
 {
+    image_index = 21;
     hspd = 0;
-    sprite_assign(ObjPlayer, sp_player);
 }
 
 //Invulnerability timer decrement

@@ -80,7 +80,7 @@
             <kind>1</kind>
             <string>if(pause == false)
 {
-    draw_sprite(HealthBar, 5 - health, 64, 64);
+    draw_sprite(sp_health_bar, 5 - health, 64, 64);
 } else
 {
     instance_create(512, 256, ObjPlayButton);

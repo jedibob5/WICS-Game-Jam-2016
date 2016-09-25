@@ -1,5 +1,5 @@
 if(abs(ObjPlayer.x - x) <= 256) {
-    sprite_assign(ObjFlyingEnemy, sp_divebomb);
+    draw_sprite(sp_dive_bomb, 0, x, y);
     if(sign(ObjPlayer.x - x) == -1) {
         image_xscale = 1;
         direction = 225;
@@ -11,5 +11,5 @@ if(abs(ObjPlayer.x - x) <= 256) {
     }
 } else {
     direction = 180 * sign(ObjPlayer.x - x);
-    sprite_assign(ObjFlyingEnemy, sp_bird2);
+    draw_sprite(sp_bird, image_index, x, y);
 }
