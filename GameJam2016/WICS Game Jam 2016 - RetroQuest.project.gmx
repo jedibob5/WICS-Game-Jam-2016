@@ -10,6 +10,9 @@
     <sound>sound\bgm_lvl1</sound>
     <sound>sound\bgm_title</sound>
     <sound>sound\bgm_title2</sound>
+    <sound>sound\bgm_boss</sound>
+    <sound>sound\bgm_lvl2</sound>
+    <sound>sound\bgm_goWait</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
@@ -110,6 +113,7 @@
     <script>scripts\sc_title_control.gml</script>
     <script>scripts\BossStep.gml</script>
     <script>scripts\OnHitBoss.gml</script>
+    <script>scripts\BossMinionStep.gml</script>
     <script>scripts\SensorStep.gml</script>
     <script>scripts\sc_sensor_spawn.gml</script>
   </scripts>
@@ -121,6 +125,7 @@
     <object>objects\ObjEnemyShooter</object>
     <object>objects\ObjEnemyspawner</object>
     <object>objects\ObjEnemyWalker</object>
+    <object>objects\ObjBossMinion</object>
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjFlyEnemySpawnerRight</object>
     <object>objects\ObjHard_FlyEnemySpawner</object>
@@ -176,6 +181,8 @@
     <object>objects\ObjCtrlMenuReturnBox</object>
     <object>objects\ObjBoss</object>
     <object>objects\ObjSensor</object>
+    <object>objects\ObjBgmBoss</object>
+    <object>objects\ObjBgmlvl2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
