@@ -195,7 +195,6 @@
     <room>rooms\rm_lvl2</room>
     <room>rooms\THE_GAUNTLET</room>
     <room>rooms\Room</room>
-    <room>rooms\THE_GAUNTLET</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -267,7 +267,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>bullet</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
