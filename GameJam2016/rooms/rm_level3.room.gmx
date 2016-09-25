@@ -279,33 +279,6 @@
     <instance objName="ObjMetal" x="2304" y="736" name="inst_31E419D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTinyMetal" x="2176" y="672" name="inst_E7A5FDA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjFlyEnemySpawner" x="8128" y="384" name="inst_45A70DC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2112" y="736" name="inst_6BD13736" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2240" y="736" name="inst_E15F387B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2432" y="416" name="inst_B78CAA0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="ObjLargeMetal" x="2432" y="608" name="inst_28AE072A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="ObjLargeMetal" x="2336" y="576" name="inst_4917F11C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2368" y="736" name="inst_F0DAEE64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2496" y="736" name="inst_9782C4A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2624" y="736" name="inst_692458B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2752" y="736" name="inst_3AD1171C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="3040" y="576" name="inst_A577FE4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="ObjLargeMetal" x="3040" y="704" name="inst_F6D143C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="ObjLargeMetal" x="2528" y="416" name="inst_30E90BEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2656" y="416" name="inst_1239606A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2784" y="416" name="inst_6A7737B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2912" y="416" name="inst_0164CD5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="1696" y="544" name="inst_087D2D75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="1824" y="544" name="inst_205194CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2080" y="544" name="inst_A6B31BA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="4192" y="672" name="inst_E6A9DE9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="4224" y="736" name="inst_94966392" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="6688" y="672" name="inst_08CAB098" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="6944" y="672" name="inst_8676D397" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="7200" y="672" name="inst_AC632A44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="7456" y="672" name="inst_0D6F7270" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="7712" y="672" name="inst_50C899A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="7968" y="672" name="inst_DAE5509D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="8096" y="672" name="inst_54C1EC36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTinyMetal" x="8160" y="672" name="inst_55FEDABC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTinyMetal" x="8160" y="640" name="inst_E3D00032" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTinyMetal" x="8160" y="608" name="inst_953703C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -339,11 +312,7 @@
     <instance objName="ObjTransparentGround" x="4128" y="736" name="inst_2DE53978" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTransparentGround" x="960" y="640" name="inst_BA3ABF5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTransparentGround" x="704" y="576" name="inst_14665717" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="2432" y="288" name="inst_F61D3754" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="ObjLargeMetal" x="6912" y="480" name="inst_44812385" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="ObjTinyMetal" x="6112" y="512" name="inst_51DE9E0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjLargeMetal" x="6912" y="352" name="inst_F73CBE19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="ObjLargeMetal" x="6912" y="224" name="inst_C0868DA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="ObjFlyEnemySpawnerRight" x="6784" y="288" name="inst_DBF21A08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjFlyEnemySpawnerRight" x="8064" y="352" name="inst_5FD7B9B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTransparentGround" x="4960" y="736" name="inst_62486B35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

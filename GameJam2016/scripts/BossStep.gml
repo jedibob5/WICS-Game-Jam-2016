@@ -1,3 +1,7 @@
+if(health == 0) {
+    instance_deactivate_object(ObjBoss);
+}
+
 //launch
 if(place_meeting(x, y+1, ObjSolid) && !jumping)
 {
@@ -32,6 +36,15 @@ if(place_meeting(x+hspd, y, ObjSolid))
         x += sign(hspd);
     }
     hspd = 0;
+}
+
+//Collision with player
+if(distance_to_object(ObjPlayer) <= 32) {
+    sprite_index = sp_128ph;
+} else if(hspd == 0) {
+    sprite_index = sp_128ph_atk;
+} else {
+    sprite_index = sp_128ph_walk;
 }
 
 // Move horizontally
@@ -74,7 +87,10 @@ if(place_meeting(x + sign(hspd), y, ObjSolid)) {
         x += sign(hspd);
     }
     hspd = 0;
+<<<<<<< HEAD
     image_index = 2;
+=======
+>>>>>>> origin/master
 }
 
 //throw enemies on player jump
@@ -92,3 +108,5 @@ if(throwing>0){
     throwing--;
     hspd=0;
 }
+
+    
