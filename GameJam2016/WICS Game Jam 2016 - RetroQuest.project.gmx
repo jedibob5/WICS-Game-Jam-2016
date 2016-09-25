@@ -60,11 +60,8 @@
     <sprite>sprites\sp_door3</sprite>
     <sprite>sprites\ControlsScreen</sprite>
     <sprite>sprites\sp_bossdoor</sprite>
-<<<<<<< HEAD
     <sprite>sprites\sp_wep_run</sprite>
-=======
     <sprite>sprites\sp_128ph</sprite>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -112,6 +109,7 @@
     <script>scripts\sc_sensor_spawn.gml</script>
     <script>scripts\SensorStep.gml</script>
     <script>scripts\OnHitBoss.gml</script>
+    <script>scripts\BossMinionStep.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -121,6 +119,7 @@
     <object>objects\ObjEnemyShooter</object>
     <object>objects\ObjEnemyspawner</object>
     <object>objects\ObjEnemyWalker</object>
+    <object>objects\ObjBossMinion</object>
     <object>objects\ObjFlyEnemySpawner</object>
     <object>objects\ObjFlyEnemySpawnerRight</object>
     <object>objects\ObjHard_FlyEnemySpawner</object>
@@ -158,11 +157,7 @@
     <object>objects\ObjDoor1</object>
     <object>objects\ObjDoor2</object>
     <object>objects\ObjDoor3</object>
-<<<<<<< HEAD
     <object>objects\ObjBossDoor</object>
-    <object>objects\ObjMetal</object>
-=======
->>>>>>> origin/master
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
     <object>objects\Objgoodjob</object>
@@ -180,11 +175,7 @@
     <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjCtrlMenuReturnBox</object>
-<<<<<<< HEAD
-=======
-    <object>objects\ObjBossDoor</object>
     <object>objects\ObjSensor</object>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
