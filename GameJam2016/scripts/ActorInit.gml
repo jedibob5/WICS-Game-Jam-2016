@@ -6,3 +6,4 @@ hspd = 0;
 vspd = 0;
 isOnGround = false;
 jumping = false;
+launched = false;

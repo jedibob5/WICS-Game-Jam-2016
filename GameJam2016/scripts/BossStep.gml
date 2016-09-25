@@ -1,3 +1,9 @@
+//launch
+if(place_meeting(x, y+1, ObjSolid) && !jumping)
+{
+    launched = false;
+}
+
 //-----------------------------Actor Step-------------------------------------------------
 // Check for ground
 if(place_meeting(x, y+1, ObjSolid) && !jumping)
@@ -45,16 +51,17 @@ if(place_meeting(x, y+vspd, ObjSolid))
 y += vspd;
 //--------------------------------Modded Enemy Step---------------------------------------
 //Follow Player
-if(x > ObjPlayer.x)
-{
-    hspd = -spd;
-    image_xscale = 1;
-} else
-{
-    hspd = spd;
-    image_xscale = -1;
+if(!launched){
+    if(x > ObjPlayer.x)
+    {
+        hspd = -spd;
+        image_xscale = 1;
+    } else
+    {
+        hspd = spd;
+        image_xscale = -1;
+    }
 }
-
 //Harm player on collision
 if(place_meeting(x, y, ObjPlayer))
 {
@@ -71,14 +78,15 @@ if(place_meeting(x + sign(hspd), y, ObjSolid)) {
 }
 
 //throw enemies on player jump
-if(ObjPlayer.y>y+10){
+if(ObjPlayer.y<y-64){
     throwing=63;
 }
 if(throwing>0){
     if(throwing==20||throwing==41||throwing==62){
         with(instance_create(x+24*sign(hspd), y, ObjEnemyWalker)){
-            speed=20;
-            direction=90+sign(ObjBoss)*45;
+            launched=true;
+            hspd=10*image_xscale;
+            vspd=-10;
         }
     }
     throwing--;
