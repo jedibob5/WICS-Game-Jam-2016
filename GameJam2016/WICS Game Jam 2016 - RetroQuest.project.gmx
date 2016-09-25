@@ -60,6 +60,7 @@
     <sprite>sprites\sp_door3</sprite>
     <sprite>sprites\ControlsScreen</sprite>
     <sprite>sprites\sp_bossdoor</sprite>
+    <sprite>sprites\sp_wep_run</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -69,6 +70,8 @@
     <background>background\background6</background>
     <background>background\bg_red</background>
     <background>background\bg_blue</background>
+    <background>background\bg_trippy_red</background>
+    <background>background\bg_trippy_blue</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -144,6 +147,7 @@
     <object>objects\ObjDoor1</object>
     <object>objects\ObjDoor2</object>
     <object>objects\ObjDoor3</object>
+    <object>objects\ObjBossDoor</object>
     <object>objects\ObjMetal</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
@@ -161,7 +165,6 @@
     <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjCtrlMenuReturnBox</object>
-    <object>objects\ObjBossDoor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
