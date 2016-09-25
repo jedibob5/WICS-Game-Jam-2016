@@ -75,12 +75,10 @@ y += vspd;
 if(!launched){
     if(x > ObjPlayer.x)
     {
-        spd = 4;
         hspd = -spd;
         image_xscale = 1;
     } else
     {
-        spd = 4;
         hspd = spd;
         image_xscale = -1;
     }
@@ -97,6 +95,7 @@ if(place_meeting(x + sign(hspd), y, ObjSolid)) {
         x += sign(hspd);
     }
     hspd = 0;
+    image_index = 2;
 }
 
 //throw enemies on player jump
@@ -107,7 +106,7 @@ if(throwing>0){
     if(throwing==20||throwing==41||throwing==62){
         with(instance_create(x+24*sign(hspd), y, ObjEnemyWalker)){
             launched=true;
-            hspd=10*sign(ObjPlayer.x - x);
+            hspd=10*image_xscale;
             vspd=-10;
         }
     }
