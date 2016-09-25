@@ -40,6 +40,9 @@ if(place_meeting(x+hspd, y, ObjSolid))
 
 //Collision with player
 if(throwing>0) {
+if(distance_to_object(ObjPlayer) <= 0) {
+    sprite_index = sp_128ph;
+} else if(hspd == 0) {
     sprite_index = sp_128ph_atk;
 } else if(hspd == 0) {
     sprite_index = sp_128ph;
@@ -67,12 +70,10 @@ y += vspd;
 if(!launched){
     if(x > ObjPlayer.x)
     {
-        spd = 4;
         hspd = -spd;
         image_xscale = 1;
     } else
     {
-        spd = 4;
         hspd = spd;
         image_xscale = -1;
     }
@@ -89,6 +90,7 @@ if(place_meeting(x + sign(hspd), y, ObjSolid)) {
         x += sign(hspd);
     }
     hspd = 0;
+    image_index = 2;
 }
 
 //throw enemies on player jump
