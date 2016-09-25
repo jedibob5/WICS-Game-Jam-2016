@@ -84,6 +84,7 @@ controls = false;
     draw_sprite(HealthBar, 5 - health, 64, 64);
 } else if(pause)
 {
+    instance_create(512 + view_xview[0], 64 + view_yview[0], ObjHubButton);
     instance_create(512 + view_xview[0], 192 + view_yview[0], ObjPlayButton);
     instance_create(512 + view_xview[0], 416 + view_yview[0], ObjMenuCtrls);
     instance_create(512 + view_xview[0], 640 + view_yview[0], ObjQuitButton);

@@ -7,3 +7,7 @@ if(instance_number(ObjEnemyspawner) == 0 && instance_number(ObjFlyEnemySpawner) 
     }
 }
 
+if(ObjPlayer.y > 768) {
+    room_goto(Death);
+}
+
