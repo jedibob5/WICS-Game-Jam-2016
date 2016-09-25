@@ -255,6 +255,9 @@
     <instance objName="ObjEnemyspawner" x="1056" y="288" name="inst_18D42052" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjFlyEnemySpawner" x="480" y="288" name="inst_B3C29C39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjFlyEnemySpawner" x="864" y="288" name="inst_F10BF221" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjCityBlock" x="2368" y="608" name="inst_AA3A78C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjCityBlock" x="224" y="160" name="inst_FE116126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjCityBlock" x="1120" y="160" name="inst_50668EB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
