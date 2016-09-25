@@ -25,7 +25,6 @@
     <sprite>sprites\sp_door1</sprite>
     <sprite>sprites\sp_enemyspawner</sprite>
     <sprite>sprites\sp_ground</sprite>
-    <sprite>sprites\sp_transparent_ground</sprite>
     <sprite>sprites\SprBulletEnemy</sprite>
     <sprite>sprites\SprMenuMenu</sprite>
     <sprite>sprites\SprMenuPlay</sprite>
@@ -96,10 +95,14 @@
     <script>scripts\PickupCollide.gml</script>
     <script>scripts\sc_gauntlet_control.gml</script>
     <script>scripts\sc_gauntlet_step.gml</script>
+<<<<<<< HEAD
+    <script>scripts\BossStep.gml</script>
+=======
     <script>scripts\sc_Room_control.gml</script>
     <script>scripts\sc_rmlvl2_control.gml</script>
     <script>scripts\sc_rmlevel3_control_new.gml</script>
     <script>scripts\sc_title_control.gml</script>
+>>>>>>> origin/master
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -113,14 +116,12 @@
     <object>objects\ObjFlyEnemySpawnerRight</object>
     <object>objects\ObjHard_FlyEnemySpawner</object>
     <object>objects\ObjGround</object>
-    <object>objects\ObjTransparentGround</object>
+    <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjSolid</object>
     <object>objects\wall_pholder</object>
-    <object>objects\ObjBgmHub</object>
-    <object>objects\ObjLvlBgm</object>
     <object>objects\ObjTitleBgm</object>
     <object>objects\ObjUI</object>
     <object>objects\ParActor</object>
@@ -140,15 +141,24 @@
     <object>objects\ParDoor</object>
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
+<<<<<<< HEAD
+    <object>objects\ObjLargeMetal</object>
+    <object>objects\ObjMetal</object>
+    <object>objects\ObjBgmHub</object>
+=======
     <object>objects\ObjDoor1</object>
+>>>>>>> origin/master
     <object>objects\ObjDoor2</object>
     <object>objects\ObjDoor3</object>
     <object>objects\ObjMetal</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
-    <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
+    <object>objects\Objgoodjob</object>
     <object>objects\Obj_gauntlet_control</object>
+<<<<<<< HEAD
+    <object>objects\ObjBoss</object>
+=======
     <object>objects\ObjHubButton</object>
     <object>objects\ObjTitleControl</object>
     <object>objects\ObjCheck1</object>
@@ -157,22 +167,26 @@
     <object>objects\ObjRoomControl</object>
     <object>objects\Obj_rmlvl2_control</object>
     <object>objects\Obj_rmlvl3_control</object>
+<<<<<<< HEAD
     <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjCtrlMenuReturnBox</object>
     <object>objects\ObjBossDoor</object>
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
     <room>rooms\MainMenu</room>
     <room>rooms\Death</room>
-    <room>rooms\goodjob</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
     <room>rooms\rm_lvl2</room>
     <room>rooms\rm_level3</room>
     <room>rooms\rm_boss</room>
     <room>rooms\THE_GAUNTLET</room>
+    <room>rooms\goodjob</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
