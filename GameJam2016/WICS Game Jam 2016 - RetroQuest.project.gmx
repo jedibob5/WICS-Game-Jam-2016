@@ -178,9 +178,7 @@
     <object>objects\ObjCtrlMenuReturnBox</object>
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjMenuCtrls</object>
-    <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjCtrlScreen</object>
-    <object>objects\ObjCtrlMenuReturnBox</object>
     <object>objects\ObjBoss</object>
     <object>objects\ObjSensor</object>
   </objects>
