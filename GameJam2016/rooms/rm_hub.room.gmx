@@ -72,6 +72,9 @@
     <instance objName="ObjDoor1" x="496" y="528" name="inst_0306850F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjPlayer" x="608" y="544" name="inst_E9D987E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjBgmHub" x="0" y="32" name="inst_3FF66863" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjDoor2" x="306" y="560" name="inst_20F90C61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_THE_GAUNTLET" x="160" y="672" name="inst_75E1AA0B" locked="0" code="" scaleX="0.6875" scaleY="0.625" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_to_gauntlet_control" x="0" y="0" name="inst_D97D77B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
