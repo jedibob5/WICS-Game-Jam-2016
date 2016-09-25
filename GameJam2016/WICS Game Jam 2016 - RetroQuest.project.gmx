@@ -101,6 +101,7 @@
     <object>objects\ObjTinyBlock</object>
     <object>objects\ParPickup</object>
     <object>objects\PickupHealth</object>
+    <object>objects\ParDoor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
