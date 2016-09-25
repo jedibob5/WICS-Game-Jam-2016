@@ -4,7 +4,13 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bgm_go</sound>
+    <sound>sound\bgm_Hub</sound>
+    <sound>sound\bgm_lvl1</sound>
+    <sound>sound\bgm_title</sound>
+    <sound>sound\bgm_title2</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
     <sprite>sprites\HealthBar</sprite>
@@ -107,8 +113,12 @@
     <object>objects\ObjTinyBlock</object>
     <object>objects\ParPickup</object>
     <object>objects\PickupHealth</object>
+<<<<<<< HEAD:GameJam2016.gmx/WICS Game Jam 2016 - RetroQuest.project.gmx
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
+=======
+    <object>objects\ObjHubBgm</object>
+>>>>>>> origin/master:GameJam2016/WICS Game Jam 2016 - RetroQuest.project.gmx
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
