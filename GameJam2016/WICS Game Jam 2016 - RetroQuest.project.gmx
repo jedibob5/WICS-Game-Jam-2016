@@ -142,17 +142,14 @@
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
     <object>objects\ObjDoor2</object>
-<<<<<<< HEAD
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjCtrlMenuReturnBox</object>
-=======
     <object>objects\ObjMetal</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
     <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
->>>>>>> 3ccc5332ea19e43a61381bea8f037ddc23685b77
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
