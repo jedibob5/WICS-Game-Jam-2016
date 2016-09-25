@@ -13,6 +13,9 @@ if(isOnGround && jkey)
     jumping = true;
     jumpTimer = 10;
     vspd = -jspd;
+} else if(!jkey)
+{
+    jumpTimer = 0;
 } else if(jumpTimer > 0 && jkey)
 {
     vspd = -jspd;
