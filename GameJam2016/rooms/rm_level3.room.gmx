@@ -77,7 +77,7 @@
     <instance objName="ObjGround" x="832" y="672" name="inst_8A96B3B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjCityBlock" x="768" y="544" name="inst_7AE1133F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjCityBlock" x="928" y="544" name="inst_8738EB8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjEnemyspawner" x="518" y="433" name="inst_E704102F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjEnemyspawner" x="512" y="448" name="inst_E704102F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjGround" x="960" y="640" name="inst_8A690217" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjGround" x="960" y="576" name="inst_3746EDDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTinyBlock" x="864" y="672" name="inst_19A76565" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -225,7 +225,7 @@
     <instance objName="ObjTinyBlock" x="5984" y="480" name="inst_75D8DC4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTinyBlock" x="5952" y="480" name="inst_5E4E7830" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjTinyBlock" x="5920" y="480" name="inst_9EC635D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjEnemyspawner" x="5989" y="433" name="inst_DC86B6FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjEnemyspawner" x="6016" y="448" name="inst_DC86B6FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjFlyEnemySpawner" x="6176" y="288" name="inst_ED0EFE63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjCityBlock" x="6016" y="672" name="inst_71DDF540" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjCityBlock" x="6080" y="672" name="inst_43A0B6BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

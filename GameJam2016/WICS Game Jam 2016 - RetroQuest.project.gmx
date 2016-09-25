@@ -25,6 +25,7 @@
     <sprite>sprites\sp_door1</sprite>
     <sprite>sprites\sp_enemyspawner</sprite>
     <sprite>sprites\sp_ground</sprite>
+    <sprite>sprites\sp_transparent_ground</sprite>
     <sprite>sprites\SprBulletEnemy</sprite>
     <sprite>sprites\SprMenuMenu</sprite>
     <sprite>sprites\SprMenuPlay</sprite>
@@ -66,6 +67,7 @@
     <background>background\BgDeath</background>
     <background>background\GameOverScreen</background>
     <background>background\background3</background>
+    <background>background\background6</background>
     <background>background\bg_red</background>
     <background>background\bg_blue</background>
   </backgrounds>
@@ -117,12 +119,14 @@
     <object>objects\ObjFlyEnemySpawnerRight</object>
     <object>objects\ObjHard_FlyEnemySpawner</object>
     <object>objects\ObjGround</object>
-    <object>objects\ObjLvlBgm</object>
+    <object>objects\ObjTransparentGround</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjSolid</object>
     <object>objects\wall_pholder</object>
+    <object>objects\ObjBgmHub</object>
+    <object>objects\ObjLvlBgm</object>
     <object>objects\ObjTitleBgm</object>
     <object>objects\ObjUI</object>
     <object>objects\ParActor</object>
@@ -150,8 +154,8 @@
     <object>objects\ObjDoor3</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
-    <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Objgoodjob</object>
+    <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
     <object>objects\ObjBoss</object>
     <object>objects\ObjHubButton</object>
@@ -172,13 +176,13 @@
     <room>rooms\Title</room>
     <room>rooms\MainMenu</room>
     <room>rooms\Death</room>
+    <room>rooms\goodjob</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
     <room>rooms\rm_lvl2</room>
     <room>rooms\rm_level3</room>
     <room>rooms\rm_boss</room>
     <room>rooms\THE_GAUNTLET</room>
-    <room>rooms\goodjob</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
