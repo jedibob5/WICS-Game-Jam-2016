@@ -30,7 +30,11 @@
     <sprite>sprites\SprMenuMenu</sprite>
     <sprite>sprites\SprMenuPlay</sprite>
     <sprite>sprites\SprMenuQuit</sprite>
+<<<<<<< HEAD
     <sprite>sprites\sp_hub_button</sprite>
+=======
+    <sprite>sprites\SprMenuCtrls</sprite>
+>>>>>>> 514852577c0c451d1ff987e35bba1d8649bc7f75
     <sprite>sprites\SprPlayer</sprite>
     <sprite>sprites\SprSolid</sprite>
     <sprite>sprites\sp_spawner_hurt</sprite>
@@ -52,6 +56,8 @@
     <sprite>sprites\sp_largebomb</sprite>
     <sprite>sprites\sp_largeboom</sprite>
     <sprite>sprites\sp_door2</sprite>
+    <sprite>sprites\ControlsScreen</sprite>
+    <sprite>sprites\SprCtrlMenuReturnBox</sprite>
     <sprite>sprites\sp_metal</sprite>
     <sprite>sprites\sp_rustmetal</sprite>
     <sprite>sprites\sp_THE_GAUNTLET</sprite>
@@ -113,6 +119,7 @@
     <object>objects\ObjGround</object>
     <object>objects\ObjTransparentGround</object>
     <object>objects\ObjMenuButton</object>
+    <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjSolid</object>
@@ -140,13 +147,21 @@
     <object>objects\ObjLargeExplosion</object>
     <object>objects\ObjDoor1</object>
     <object>objects\ObjDoor2</object>
+<<<<<<< HEAD
     <object>objects\ObjDoor3</object>
+=======
+<<<<<<< HEAD
+    <object>objects\ObjCtrlScreen</object>
+    <object>objects\ObjCtrlMenuReturnBox</object>
+=======
+>>>>>>> 514852577c0c451d1ff987e35bba1d8649bc7f75
     <object>objects\ObjMetal</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
     <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
+<<<<<<< HEAD
     <object>objects\ObjHubButton</object>
     <object>objects\ObjTitleControl</object>
     <object>objects\ObjCheck1</object>
@@ -155,6 +170,9 @@
     <object>objects\ObjRoomControl</object>
     <object>objects\Obj_rmlvl2_control</object>
     <object>objects\Obj_rmlvl3_control</object>
+=======
+>>>>>>> 3ccc5332ea19e43a61381bea8f037ddc23685b77
+>>>>>>> 514852577c0c451d1ff987e35bba1d8649bc7f75
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
