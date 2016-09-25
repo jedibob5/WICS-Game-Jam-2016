@@ -25,7 +25,6 @@
     <sprite>sprites\sp_door1</sprite>
     <sprite>sprites\sp_enemyspawner</sprite>
     <sprite>sprites\sp_ground</sprite>
-    <sprite>sprites\sp_transparent_ground</sprite>
     <sprite>sprites\SprBulletEnemy</sprite>
     <sprite>sprites\SprMenuMenu</sprite>
     <sprite>sprites\SprMenuPlay</sprite>
@@ -41,7 +40,6 @@
     <sprite>sprites\sprLargeMetal</sprite>
     <sprite>sprites\sprLargeRust</sprite>
     <sprite>sprites\sprCityBlock</sprite>
-    <sprite>sprites\sprEnemySpawner</sprite>
     <sprite>sprites\sprTinyMetal</sprite>
     <sprite>sprites\sprTinyDirt</sprite>
     <sprite>sprites\sprTinyBlock</sprite>
@@ -57,7 +55,6 @@
     <sprite>sprites\sp_rustmetal</sprite>
     <sprite>sprites\sp_THE_GAUNTLET</sprite>
     <sprite>sprites\sp_goodjob</sprite>
-    <sprite>sprites\sp_check</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -94,9 +91,7 @@
     <script>scripts\PickupCollide.gml</script>
     <script>scripts\sc_gauntlet_control.gml</script>
     <script>scripts\sc_gauntlet_step.gml</script>
-    <script>scripts\sc_Room_control.gml</script>
-    <script>scripts\sc_rmlvl2_control.gml</script>
-    <script>scripts\sc_rmlvl2_control_new.gml</script>
+    <script>scripts\BossStep.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -111,14 +106,12 @@
     <object>objects\ObjFlyEnemySpawnerRight</object>
     <object>objects\ObjHard_FlyEnemySpawner</object>
     <object>objects\ObjGround</object>
-    <object>objects\ObjTransparentGround</object>
+    <object>objects\ObjLvlBgm</object>
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjQuitButton</object>
     <object>objects\ObjSolid</object>
     <object>objects\wall_pholder</object>
-    <object>objects\ObjBgmHub</object>
-    <object>objects\ObjLvlBgm</object>
     <object>objects\ObjTitleBgm</object>
     <object>objects\ObjUI</object>
     <object>objects\ParActor</object>
@@ -138,28 +131,26 @@
     <object>objects\ParDoor</object>
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
-<<<<<<< HEAD
-=======
     <object>objects\ObjLargeMetal</object>
     <object>objects\ObjMetal</object>
     <object>objects\ObjBgmHub</object>
->>>>>>> origin/master
     <object>objects\ObjDoor2</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
-    <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
+    <object>objects\Objgoodjob</object>
     <object>objects\Obj_gauntlet_control</object>
+    <object>objects\ObjBoss</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\Death</room>
-    <room>rooms\goodjob</room>
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
     <room>rooms\rm_lvl2</room>
     <room>rooms\rm_level3</room>
     <room>rooms\THE_GAUNTLET</room>
+    <room>rooms\goodjob</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
