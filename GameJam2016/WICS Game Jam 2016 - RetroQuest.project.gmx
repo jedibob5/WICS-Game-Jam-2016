@@ -58,6 +58,9 @@
     <sprite>sprites\sp_goodjob</sprite>
     <sprite>sprites\sp_check</sprite>
     <sprite>sprites\sp_door3</sprite>
+    <sprite>sprites\ControlsScreen</sprite>
+    <sprite>sprites\SprCtrlMenuReturnBox</sprite>
+    <sprite>sprites\SprMenuCtrls</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -155,6 +158,9 @@
     <object>objects\ObjRoomControl</object>
     <object>objects\Obj_rmlvl2_control</object>
     <object>objects\Obj_rmlvl3_control</object>
+    <object>objects\ObjCtrlMenuReturnBox</object>
+    <object>objects\ObjCtrlScreen</object>
+    <object>objects\ObjMenuCtrls</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
