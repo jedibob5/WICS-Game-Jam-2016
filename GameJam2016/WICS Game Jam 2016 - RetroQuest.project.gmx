@@ -82,6 +82,7 @@
     <background>background\bg_blue</background>
     <background>background\bg_trippy_blue</background>
     <background>background\bg_trippy_red</background>
+    <background>background\background9</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
