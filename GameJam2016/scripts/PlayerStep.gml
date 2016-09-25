@@ -3,7 +3,7 @@ event_inherited();
 // Check for player input
 var rkey = keyboard_check(ord("D"));
 var lkey = keyboard_check(ord("A"));
-var jkey = keyboard_check_pressed(vk_space);
+var jkey = keyboard_check(vk_space);
 var ukey = keyboard_check(ord("W"));
 
 //Jumping
@@ -11,7 +11,21 @@ if(isOnGround && jkey)
 {
     isOnGround = false;
     jumping = true;
+    jumpTimer = 10;
     vspd = -jspd;
+} else if(!jkey)
+{
+    jumpTimer = 0;
+} else if(jumpTimer > 0 && jkey)
+{
+    vspd = -jspd;
+    jumpTimer--;
+}
+
+// Jumper object response
+if(place_meeting(x, y+5, ObjJumper)){
+    vspd=-jspd*2.5;
+    isOnGround = false;
 }
 
 // Moving right
