@@ -76,6 +76,8 @@
     <background>background\background6</background>
     <background>background\bg_red</background>
     <background>background\bg_blue</background>
+    <background>background\bg_trippy_blue</background>
+    <background>background\bg_trippy_red</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -164,11 +166,6 @@
     <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
-<<<<<<< HEAD
-    <object>objects\ObjBoss</object>
-    <object>objects\ObjHubButton</object>
-=======
->>>>>>> origin/master
     <object>objects\ObjTitleControl</object>
     <object>objects\ObjCheck1</object>
     <object>objects\ObjCheck2</object>
@@ -177,13 +174,10 @@
     <object>objects\Obj_rmlvl2_control</object>
     <object>objects\Obj_rmlvl3_control</object>
     <object>objects\ObjCtrlMenuReturnBox</object>
-<<<<<<< HEAD
     <object>objects\ObjBossDoor</object>
-=======
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjBoss</object>
->>>>>>> origin/master
     <object>objects\ObjSensor</object>
     <object>objects\ObjBgmlvl2</object>
     <object>objects\ObjBgmlvl3</object>

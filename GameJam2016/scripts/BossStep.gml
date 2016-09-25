@@ -87,10 +87,7 @@ if(place_meeting(x + sign(hspd), y, ObjSolid)) {
         x += sign(hspd);
     }
     hspd = 0;
-<<<<<<< HEAD
     image_index = 2;
-=======
->>>>>>> origin/master
 }
 
 //throw enemies on player jump
