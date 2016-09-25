@@ -1,3 +1,7 @@
+if(health == 0) {
+    instance_deactivate_object(ObjBoss);
+}
+
 //launch
 if(place_meeting(x, y+1, ObjSolid) && !jumping)
 {
@@ -32,16 +36,15 @@ if(place_meeting(x+hspd, y, ObjSolid))
         x += sign(hspd);
     }
     hspd = 0;
-    sprite_index = sp_128ph;
 }
 
 //Collision with player
 if(distance_to_object(ObjPlayer) <= 32) {
-    sprite_index = sp_128ph_atk;
-} else if(abs(hspd) > 0) {
-    sprite_index = sp_128ph_walk;
-} else {
     sprite_index = sp_128ph;
+} else if(hspd == 0) {
+    sprite_index = sp_128ph_atk;
+} else {
+    sprite_index = sp_128ph_walk;
 }
 
 // Move horizontally
@@ -66,13 +69,11 @@ if(!launched){
     {
         spd = 4;
         hspd = -spd;
-        sprite_index = sp_128ph_walk;
         image_xscale = 1;
     } else
     {
         spd = 4;
         hspd = spd;
-        sprite_index = sp_128ph_walk;
         image_xscale = -1;
     }
 }
@@ -88,7 +89,6 @@ if(place_meeting(x + sign(hspd), y, ObjSolid)) {
         x += sign(hspd);
     }
     hspd = 0;
-    sprite_index = sp_128ph;
 }
 
 //throw enemies on player jump
@@ -106,3 +106,5 @@ if(throwing>0){
     throwing--;
     hspd=0;
 }
+
+    

@@ -10,6 +10,9 @@
     <sound>sound\bgm_lvl1</sound>
     <sound>sound\bgm_title</sound>
     <sound>sound\bgm_title2</sound>
+    <sound>sound\bgm_boss</sound>
+    <sound>sound\bgm_lvl2</sound>
+    <sound>sound\bgm_goWait</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
@@ -181,6 +184,8 @@
     <object>objects\ObjCtrlScreen</object>
     <object>objects\ObjBoss</object>
     <object>objects\ObjSensor</object>
+    <object>objects\ObjBgmBoss</object>
+    <object>objects\ObjBgmlvl2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
@@ -188,6 +193,7 @@
     <room>rooms\Death</room>
     <room>rooms\goodjob</room>
     <room>rooms\rm_hub</room>
+    <room>rooms\rm_hub2</room>
     <room>rooms\Room</room>
     <room>rooms\rm_lvl2</room>
     <room>rooms\rm_level3</room>
