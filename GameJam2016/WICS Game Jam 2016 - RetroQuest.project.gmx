@@ -4,7 +4,13 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bgm_go</sound>
+    <sound>sound\bgm_Hub</sound>
+    <sound>sound\bgm_lvl1</sound>
+    <sound>sound\bgm_title</sound>
+    <sound>sound\bgm_title2</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
     <sprite>sprites\HealthBar</sprite>
@@ -39,12 +45,13 @@
     <sprite>sprites\sprTinyDirt</sprite>
     <sprite>sprites\sprTinyBlock</sprite>
     <sprite>sprites\sprTinyGrass</sprite>
-    <sprite>sprites\sp_walkenemyspawner</sprite>
-    <sprite>sprites\sp_walkenemyspawner_hurt</sprite>
     <sprite>sprites\sp_flyenemyspawner</sprite>
     <sprite>sprites\sp_flyenemyspawner_hurt</sprite>
+    <sprite>sprites\sp_walkenemyspawner</sprite>
+    <sprite>sprites\sp_walkenemyspawner_hurt</sprite>
     <sprite>sprites\sp_largebomb</sprite>
     <sprite>sprites\sp_largeboom</sprite>
+    <sprite>sprites\sp_door2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dark</background>
@@ -113,6 +120,8 @@
     <object>objects\ObjLargeExplosion</object>
     <object>objects\ObjLargeMetal</object>
     <object>objects\ObjMetal</object>
+    <object>objects\ObjBgmHub</object>
+    <object>objects\ObjDoor2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
