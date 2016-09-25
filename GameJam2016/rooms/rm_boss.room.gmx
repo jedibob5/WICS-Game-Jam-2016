@@ -58,6 +58,7 @@
     <instance objName="ObjRustMetal" x="224" y="320" name="inst_31E66A63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjRustMetal" x="288" y="320" name="inst_6FA623BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjRustMetal" x="352" y="320" name="inst_AC096F06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjJumper" x="416" y="320" name="inst_CA31BA84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjRustMetal" x="672" y="320" name="inst_A1D1B794" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjRustMetal" x="672" y="256" name="inst_9F475239" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjRustMetal" x="672" y="384" name="inst_F0AAD441" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -102,11 +103,9 @@
     <instance objName="ObjRustMetal" x="1632" y="0" name="inst_AC5F1A91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjRustMetal" x="672" y="0" name="inst_FA1980BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjSensor" x="704" y="256" name="inst_B11A576C" locked="0" code="" scaleX="19" scaleY="1" colour="16777215" rotation="0"/>
-    <instance objName="ObjSensor" x="736" y="256" name="inst_B11A576C" locked="0" code="" scaleX="19" scaleY="1" colour="16777215" rotation="0"/>
-    <instance objName="ObjJumper" x="416" y="320" name="inst_1D82650E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="musicSensor" x="672" y="128" name="inst_D4C2EE0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjBgmBoss" x="32" y="32" name="inst_57E19C66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjUI" x="32" y="64" name="inst_9DDD9E7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjUI" x="0" y="0" name="inst_23D5A8B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjFlyingEnemy" x="1568" y="64" name="inst_5E61F1B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="musicSensor" x="704" y="96" name="inst_AEF60019" locked="0" code="" scaleX="1" scaleY="1" colour="16777215" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
