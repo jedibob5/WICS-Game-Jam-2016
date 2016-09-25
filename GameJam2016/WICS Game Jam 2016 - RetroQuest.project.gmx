@@ -83,6 +83,7 @@
     <background>background\bg_blue</background>
     <background>background\bg_trippy_blue</background>
     <background>background\bg_trippy_red</background>
+    <background>background\background9</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -117,6 +118,12 @@
     <script>scripts\sc_rmlevel3_control_new.gml</script>
     <script>scripts\sc_title_control.gml</script>
     <script>scripts\sc_sensor_spawn.gml</script>
+<<<<<<< HEAD
+=======
+    <script>scripts\LazerInit.gml</script>
+    <script>scripts\LazerStep.gml</script>
+    <script>scripts\sc_sensor_spawn_new.gml</script>
+>>>>>>> origin/master
     <script>scripts\SensorStep.gml</script>
     <script>scripts\OnHitBoss.gml</script>
     <script>scripts\sc_hubbutton.gml</script>
@@ -187,6 +194,8 @@
     <object>objects\ObjBoss</object>
     <object>objects\ObjSensor</object>
     <object>objects\ObjBgmlvl2</object>
+    <object>objects\ObjLazer</object>
+    <object>objects\ObjLargeMetal</object>
     <object>objects\ObjBgmlvl3</object>
     <object>objects\ObjBgmBoss</object>
     <object>objects\ObjSfxWin</object>
@@ -196,13 +205,13 @@
     <room>rooms\MainMenu</room>
     <room>rooms\Death</room>
     <room>rooms\goodjob</room>
-    <room>rooms\rm_boss</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_hub2</room>
     <room>rooms\rm_level3</room>
     <room>rooms\rm_lvl2</room>
     <room>rooms\Room</room>
     <room>rooms\THE_GAUNTLET</room>
+    <room>rooms\rm_boss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

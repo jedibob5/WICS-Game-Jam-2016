@@ -39,10 +39,13 @@ if(place_meeting(x+hspd, y, ObjSolid))
 }
 
 //Collision with player
+if(throwing>0) {
 if(distance_to_object(ObjPlayer) <= 0) {
     sprite_index = sp_128ph;
 } else if(hspd == 0) {
     sprite_index = sp_128ph_atk;
+} else if(hspd == 0) {
+    sprite_index = sp_128ph;
 } else {
     sprite_index = sp_128ph_walk;
 }
@@ -91,12 +94,9 @@ if(place_meeting(x + sign(hspd), y, ObjSolid)) {
 }
 
 //throw enemies on player jump
-if(ObjPlayer.y<y-64){
-    throwing=63;
-}
 if(throwing>0){
-    if(throwing==20||throwing==41||throwing==62){
-        with(instance_create(x+24*sign(hspd), y, ObjEnemyWalker)){
+    if(throwing==26||throwing==54||throwing==82){
+        with(instance_create(x+24*sign(hspd), y, ObjBossMinion)){
             launched=true;
             hspd=10*sign(ObjPlayer.x - x);
             vspd=-10;
@@ -105,5 +105,8 @@ if(throwing>0){
     throwing--;
     hspd=0;
 }
-
-    
+else if(ObjPlayer.y<y-64){
+    throwing=84;
+    sprite_index = sp_128ph_atk;
+    image_index = 0;
+}
