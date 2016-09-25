@@ -111,6 +111,8 @@
     <object>objects\ParDoor</object>
     <object>objects\ObjLargeBomb</object>
     <object>objects\ObjLargeExplosion</object>
+    <object>objects\ObjLargeMetal</object>
+    <object>objects\ObjMetal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
@@ -118,6 +120,7 @@
     <room>rooms\rm_hub</room>
     <room>rooms\Room</room>
     <room>rooms\rm_lvl2</room>
+    <room>rooms\rm_level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
