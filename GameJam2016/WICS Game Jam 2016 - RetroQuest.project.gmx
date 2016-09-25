@@ -148,6 +148,7 @@
     <object>objects\ObjDoor1</object>
     <object>objects\ObjDoor2</object>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <object>objects\ObjDoor3</object>
 =======
 <<<<<<< HEAD
@@ -155,12 +156,17 @@
     <object>objects\ObjCtrlMenuReturnBox</object>
 =======
 >>>>>>> 514852577c0c451d1ff987e35bba1d8649bc7f75
+=======
+    <object>objects\ObjCtrlScreen</object>
+    <object>objects\ObjCtrlMenuReturnBox</object>
+>>>>>>> origin/master
     <object>objects\ObjMetal</object>
     <object>objects\ObjRustMetal</object>
     <object>objects\Obj_THE_GAUNTLET</object>
     <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <object>objects\ObjHubButton</object>
     <object>objects\ObjTitleControl</object>
@@ -173,6 +179,8 @@
 =======
 >>>>>>> 3ccc5332ea19e43a61381bea8f037ddc23685b77
 >>>>>>> 514852577c0c451d1ff987e35bba1d8649bc7f75
+=======
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
