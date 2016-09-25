@@ -116,6 +116,7 @@
     <script>scripts\BossMinionStep.gml</script>
     <script>scripts\SensorStep.gml</script>
     <script>scripts\sc_sensor_spawn.gml</script>
+    <script>scripts\sc_hubbutton.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\bullet</object>
@@ -134,6 +135,7 @@
     <object>objects\ObjMenuButton</object>
     <object>objects\ObjPlayButton</object>
     <object>objects\ObjQuitButton</object>
+    <object>objects\ObjHubButton</object>
     <object>objects\ObjSolid</object>
     <object>objects\wall_pholder</object>
     <object>objects\ObjBgmHub</object>
@@ -168,7 +170,6 @@
     <object>objects\Objgoodjob</object>
     <object>objects\Obj_to_gauntlet_control</object>
     <object>objects\Obj_gauntlet_control</object>
-    <object>objects\ObjHubButton</object>
     <object>objects\ObjTitleControl</object>
     <object>objects\ObjCheck1</object>
     <object>objects\ObjCheck2</object>
