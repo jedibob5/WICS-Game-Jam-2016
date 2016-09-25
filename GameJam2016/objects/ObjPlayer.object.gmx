@@ -319,7 +319,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sfx_Shoot</sound>
+            <sound>sfx_shoot</sound>
           </argument>
           <argument>
             <kind>3</kind>

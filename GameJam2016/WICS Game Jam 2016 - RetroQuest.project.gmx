@@ -14,8 +14,9 @@
     <sound>sound\bgm_lvl2</sound>
     <sound>sound\bgm_goWait</sound>
     <sound>sound\bgm_lvl3</sound>
-    <sound>sound\sfx_Shoot</sound>
-    <sound>sound\sfx_Jump</sound>
+    <sound>sound\sfx_jump</sound>
+    <sound>sound\sfx_shoot</sound>
+    <sound>sound\sfx_winninig</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_temp</sprite>
@@ -116,7 +117,6 @@
     <script>scripts\sc_rmlevel3_control_new.gml</script>
     <script>scripts\sc_title_control.gml</script>
     <script>scripts\sc_sensor_spawn.gml</script>
-    <script>scripts\sc_sensor_spawn_new.gml</script>
     <script>scripts\SensorStep.gml</script>
     <script>scripts\OnHitBoss.gml</script>
     <script>scripts\sc_hubbutton.gml</script>
@@ -186,10 +186,10 @@
     <object>objects\ObjMenuCtrls</object>
     <object>objects\ObjBoss</object>
     <object>objects\ObjSensor</object>
-    <object>objects\musicSensor</object>
     <object>objects\ObjBgmlvl2</object>
     <object>objects\ObjBgmlvl3</object>
     <object>objects\ObjBgmBoss</object>
+    <object>objects\ObjSfxWin</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>

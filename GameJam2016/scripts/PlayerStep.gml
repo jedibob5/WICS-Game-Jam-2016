@@ -13,7 +13,7 @@ if(isOnGround && jkey)
     jumping = true;
     jumpTimer = 10;
     vspd = -jspd;
-    audio_play_sound(sfx_Jump, 0, false);
+    audio_play_sound(sfx_jump,0,false);
 } else if(!jkey)
 {
     jumpTimer = 0;
